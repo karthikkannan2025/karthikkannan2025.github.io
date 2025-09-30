@@ -4,7 +4,7 @@
 
 title: Karthik Kannan # the website title (if blank, full name will be used instead)
 first_name: Karthik
-middle_name: K.
+middle_name: P.
 last_name: Kannan
 contact_note: >
   Email is the best form of to reach me. Looking forward to talking to you!
@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: aerospace engineering, flight controls, autonomy, UAV systems, unmanned aerial vehicles, avionics, drone engineering, computer vision, YOLO, lidar, sensor integration, flight test operations, guidance and navigation, composites, high temperature materials, Catia, SolidWorks, Pixhawk, Jetson, Raspberry Pi, systems integration, multidisciplinary engineering, research and development, robotics, innovation, problem solving, USA, relocation, engineering portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://karthikkannan2025.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
