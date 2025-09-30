@@ -1,81 +1,149 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
+title: AIAA Paper — Autonomous Power Line Retrieval Drone
+description: Published AIAA SciTech paper on UAV autonomy, YOLOv8 computer vision, and in-flight power line charging
+img: assets/img/Published_Paper_pic.jpg
+importance: 1
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
+  <img src="/assets/img/RenderAIAA.png"
+       alt="Concept render of autonomous power line retrieval UAV"
+       class="img-fluid"
+       style="width:100%; max-height:340px; object-fit:cover;">
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Summary  
+This project introduces a **multi-functional autonomous drone system** designed to address two critical challenges: disaster response and urban infrastructure resilience. The UAV leverages **computer vision, swarm intelligence, and power line charging** to mitigate hazards such as downed power lines while extending endurance far beyond current limitations. By transforming one of the greatest weaknesses of drones — **short battery life** — into a strength, this concept demonstrates how UAVs can sustainably support both **emergency response** and **smart city applications**.  
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
+### Motivation  
+In **January 2024**, a tragedy in Oregon highlighted the stakes of fragile urban infrastructure:  
+a fallen power line electrocuted a family inside their car during a snowstorm. This devastating incident reinforced the need for **rapid detection and neutralization of downed wires** before first responders can safely act.  
+
+At the same time, UAVs face **fundamental weaknesses** — primarily **limited battery life** and **restricted endurance** — which prevent them from being reliable during extended disaster scenarios.  
+This project seeks to not only tackle the hazard of downed power lines but also reframe the endurance limitation of UAVs by **turning their weakness into a strength**:  
+making the very infrastructure (power lines) that causes danger part of the solution.  
+
+---
+
+### Objectives & Proposed Solutions  
+The project combines autonomy, vision, and energy resilience into a cohesive system:  
+
+- **Power Line Charging Integration**  
+  - Enables UAVs to perch and recharge directly from power lines.  
+  - Provides near-continuous operation in disaster zones, overcoming battery life limitations.  
+
+- **YOLOv8 + Computer Vision Autonomy**  
+  - Detects **fallen power lines, damaged infrastructure, and human survivors** in real-time.  
+  - Provides actionable data streams to first responders for faster, safer operations.  
+
+- **Swarm Intelligence & PSO Pathfinding**  
+  - Coordinates packs of drones to cover large areas in minutes.  
+  - Uses **Particle Swarm Optimization (PSO/PSOP)** for dynamic pathfinding, obstacle avoidance, and task prioritization.  
+
+- **Multi-Mission Capabilities**  
+  - **Hazard Mitigation**: identify and secure downed wires before responders arrive.  
+  - **Urban Infrastructure Monitoring**: monitor traffic systems, transformers, and public utilities.  
+  - **Search & Rescue**: swarm-based detection of survivors and hazards.  
+
+Together, these innovations provide a **sustainable, autonomous, and life-saving UAV system** that maximizes endurance while minimizing risks to human life.
+
+
+---
+
+### Gallery
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/powerline_charging_drone_2.png"
+         alt="Power line charging drone concept"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">Power line charging mechanism for extended UAV operations</p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/droneSwarm.png"
+         alt="Drone swarm rendering"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">Drone swarm pack deployment</p>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/YOLOv8_detection_power_line.png"
+         alt="YOLOv8 detecting power lines"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">YOLOv8 detection of power lines</p>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="row justify-content-sm-center mt-4">
+  <div class="col-sm-10 text-center">
+    <img src="/assets/img/Conops_AIAA.png"
+         alt="Concept of operations diagram"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:400px; object-fit:contain;">
+    <p class="mt-2">Proposed Concept of Operations</p>
+  </div>
+</div>
+
+
+---
+
+### My Role
+I was the **lead author** of this paper, drawing from my senior design and research experiences.  
+My contributions included:  
+- Writing the full **AIAA paper** and preparing figures.  
+- Designing the **concept of operations** and proposed solution framework.  
+- Integrating **YOLOv8 computer vision** into UAV autonomy concepts.  
+- Exploring **swarm AI techniques** (PSOP pathfinding, DFC).  
+- Presenting at the **AIAA SciTech Forum 2024**.  
+
+---
+
+### Reflection
+Publishing this paper was a defining experience in my undergraduate career. It taught me not only the **technical challenges** of bridging AI with aerospace, but also the **discipline of writing and communicating** at a professional level.  
+
+It strengthened my passion for **drones and autonomy**, gave me confidence in presenting ideas to a technical audience, and laid the foundation for later projects like **REACHR** and **GoAERO**.  
+
+This project showed me how UAVs can serve **both humanitarian disaster relief and urban smart city applications**, and how **ingenuity, persistence, and interdisciplinary collaboration** can create solutions that push aerospace forward.  
+
+---
+
+### Presentation
+<div class="row justify-content-sm-center mt-4">
+  <div class="col-sm-10 text-center">
+    <iframe src="/assets/pdf/AIAA_Presentation.pdf"
+            style="width:100%; height:500px; border-radius:12px; border:1px solid #ddd;"
+            frameborder="0"></iframe>
+    <p class="mt-2 text-muted">Slides from my AIAA SciTech Presentation</p>
+    <a class="btn btn-primary mt-2" href="/assets/pdf/AIAA_Presentation.pdf" download>
+      📥 Download Presentation
+    </a>
+  </div>
+</div>
+
+<div class="row justify-content-sm-center mt-4">
+  <div class="col-sm-8 text-center">
+    <img src="/assets/img/AIAA_Presentation.JPG"
+         alt="Karthik Kannan presenting at AIAA SciTech"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:400px; object-fit:contain;">
+    <p class="mt-2 text-muted">Presenting my work at AIAA SciTech</p>
+  </div>
+</div>
+
+---
+
+### DOI Reference
+**K. Kannan**, *“Innovative Drone Systems for Disaster Response,”*  
+AIAA SciTech Forum, 2024.  
+DOI: [10.2514/6.2024-85684](https://doi.org/10.2514/6.2024-85684)  

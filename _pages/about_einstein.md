@@ -1,5 +1,11 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m Karthik Kannan, an aerospace engineer with a Master’s from NC State and a minor in Computer Science. I’m naturally curious and enjoy learning across disciplines, which is why I gravitate toward roles where I can connect different pieces together.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I value teamwork and find that I do my best work when I’m surrounded by people who are equally motivated. I like to stay hands-on, whether that’s testing, building, or troubleshooting, because it keeps me connected to the real impact of my work.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My main goal in life is to make my mark on the world. I’m driven by ambition and dreams to be remembered for what I’ve contributed—whether that impact is small or big. At the core, I want to help people through the work I do.
+
+I have a multidisciplinary background that shapes how I approach problems. I’m not afraid to take things apart or push designs to their limits, because I learn best by uncovering how things really work. I also tend to think in worst-case scenarios, which helps me prepare for challenges. If the worst happens, I’m ready—and if it doesn’t, the outcome is better than anything I planned for.
+
+My motto is simple: “You can only climb a mountain by the steps you take.” That perspective keeps me focused on progress one step at a time, helps me savor each failure, and motivates me until I succeed.
+
+I’m a U.S. citizen and open to opportunities nationwide. My goal is simple: keep learning, keep building, and keep contributing wherever I can make a difference.

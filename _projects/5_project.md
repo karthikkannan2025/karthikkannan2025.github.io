@@ -1,80 +1,64 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Trash Can Moving Robot
+description: Autonomous driveway robot for moving trash cans to the curb
+importance: 1
 category: fun
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h2>Summary</h2>
+<p>
+  The Trash Can Robot originated as a solution to a simple but persistent
+  inconvenience: moving trash cans down long or steep driveways. By
+  automating this repetitive task, the project serves as an exploration
+  of practical household robotics with broader implications for
+  convenience, safety, and autonomy in residential environments.
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h2>Concepts</h2>
+<p>
+  The design is centered on a motorized base with an integrated linear
+  actuator to lift and secure a standard trash can. To reduce load and
+  improve stability, the actuator tilts the can at an angle so the wheels
+  and chassis share the weight. The system is intended to be highly
+  automated, incorporating computer vision for trash can detection,
+  obstacle avoidance, and accurate placement at the curb. Future
+  integration with home systems, such as garage door automation, will
+  enable the robot to self-charge indoors and operate with minimal user
+  input.
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h2>Existing Solutions</h2>
+<p>
+  While some commercial solutions have been proposed, most require
+  modifications to the trash can or environment and are expensive with
+  limited adoption. Notably, a company called Rezzi briefly pursued this
+  concept and even secured recognition for its innovation, but the effort
+  was discontinued and the patent eventually expired. This project builds
+  on that foundation by aiming for a more accessible, modular, and
+  affordable design.
+</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<h2>Future Work</h2>
+<p>
+  Future development will emphasize modularity, enabling the robot to
+  take on additional yard tasks such as hauling tools or small loads.
+  Conceptual work has already included CAD models of the chassis and
+  drive system, as well as actuator and clamping mechanisms. Initial
+  testing will focus on basic mobility, stability on uneven terrain, and
+  remote control before progressing to full autonomy. Parts have been
+  sourced and the first CAD hull has been designed, setting the stage for
+  early prototyping.
+</p>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h2>Skills Applied and Learned</h2>
+<ul>
+  <li>Robotics design and CAD modeling (mechanical housing and chassis layout)</li>
+  <li>Actuator integration and load distribution for terrain handling</li>
+  <li>Computer vision for detection, tracking, and obstacle avoidance</li>
+  <li>Embedded systems and automation coding (control logic, garage door integration)</li>
+  <li>Systems engineering principles for modularity and multi-tasking capability</li>
+  <li>Hands-on prototyping: parts sourcing, early mechanical testing, and iterative design</li>
+</ul>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

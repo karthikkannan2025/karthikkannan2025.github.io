@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
-nav: true
+permalink: /Yearly Updates/
+title: yearly updates
+nav: false
 nav_order: 1
 pagination:
   enabled: true

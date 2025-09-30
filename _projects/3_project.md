@@ -1,81 +1,75 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: REU Research — AI for High-Temperature Composites
+description: REU research grant funded AI-driven optimization of aerospace composites
+img: assets/img/reu-hero-banner.png
+importance: 1
 category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
+  <img src="/assets/img/reu-hero-banner.png"
+       alt="Composite research lab setup"
+       class="img-fluid"
+       style="width:100%; max-height:340px; object-fit:cover;">
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Summary**  
+As a **REU Undergraduate Research grant**, I worked under **Dr. Cheryl Xu** at NC State University on AI-driven material discovery for **high-temperature ceramic matrix composites (CMCs)**. My project focused on using neural networks to optimize material compositions for aerospace applications such as **hypersonic vehicles, thermal protection systems, and RF shielding**. This work earned me a **$4,000 grant** and a **First Place award** at the NC Space Grant Research Symposium.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
+### Research Objectives
+- Develop a **neural network regression model** to predict material properties from experimental datasets.  
+- Use NASA NCamp **high-temperature data** to identify optimal ceramic matrix composites.  
+- Bridge **AI/ML techniques** with aerospace materials design workflows.  
+- Support long-term lab goals for **automated material discovery**.  
+
+---
+
+### Key Contributions
+- Built a **custom regression neural network** using TensorFlow for predicting Return Loss (S11) behavior of composites.  
+- Preprocessed and normalized raw RF datasets, including noise filtering and dimensionality reduction.  
+- Collaborated with Synesquo/CDm to **manufacture composite panels**, which were later tested by NASA.  
+- Validated AI predictions through **ANSYS HFSS simulations**, benchmarking against lab-scale data.  
+- Authored technical documentation for reproducibility and future transfer learning applications.  
+- Presented results during **NC Space Grant Symposium** and faculty briefings.  
+
+---
+
+### Gallery
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/REU_Poster_Disp.JPG"
+         alt="Poster presentation during judging"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:300px; object-fit:contain;">
+    <p class="mt-2">Presenting my poster during judging</p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/REU_certificate.JPG"
+         alt="First Place Award Certificate"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:300px; object-fit:contain;">
+    <p class="mt-2">First Place Award – NC Space Grant Symposium</p>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="row justify-content-sm-center mt-4">
+  <div class="col-sm-10 text-center">
+    <img src="/assets/img/REU_Detailed_poster.png"
+         alt="Detailed view of research poster"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:600px; object-fit:contain;">
+    <p class="mt-2">Detailed research poster for NC Space Grant</p>
+  </div>
+</div>
+
+---
+
+### Reflection
+This research gave me my first exposure to **bridging aerospace engineering with AI/ML**, a theme I’ve carried into my later projects like REACHR and GoAERO. It also solidified my interest in **multidisciplinary problem-solving**, combining data science, materials science, and aerospace applications.

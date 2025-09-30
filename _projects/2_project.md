@@ -1,81 +1,126 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: GoAERO Prize — RESCURE PACK (RPAC)
+description: Phase 1 winning 650 lb rescue eVTOL with autonomy and computer vision
+img: assets/img/goaero-hero-banner.png
+importance: 1
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
+  <img src="/assets/img/goaero-hero-banner.png"
+       alt="RPAC rescue EVTOL concept render"
+       class="img-fluid"
+       style="width:100%; max-height:340px; object-fit:cover;">
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Summary**  
+Our team, **RESCURE PACK**, developed the **RPAC (Rescue Pack Autonomous Copter)** for the [GoAERO Prize](https://goaeroprize.com/), a national competition to design disaster-response aircraft. RPAC is a ~650 lb gross weight octocopter capable of transporting a casualty, supplies, or equipment into areas inaccessible to traditional vehicles. Our concept was selected as a **Phase 1 winner**, advancing toward full-scale prototyping.  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Journey so far
+- **2023** — Team RESCURE PACK formed across NC State University and RPI, guided by faculty advisors Dr. Gandhi and Dr. Ewere.  
+- **2024** — Designed RPAC for three mission classes: productivity, adversity, and maneuvering. Submitted Phase 1 technical report.  
+- **2025** — Selected as a **Phase 1 winner**; preparing for Phase 2 prototyping.  
 
-{% raw %}
+---
 
-```html
+### RPAC Features
+- **Gross weight:** ~650 lb class octocopter.  
+- **Rotor system:** 8 × 4.2 ft rotors.  
+- **Dimensions:** 20 × 7.5 × 3.5 ft (road-legal transport).  
+- **Payload:** stretcher + 125 lb mannequin with additional 195 lb capacity.  
+- **Range:** 30+ miles on batteries.  
+- **Autonomy:** LiDAR + YOLOv9 pipeline for detection and navigation.  
+- **Flight control:** custom EMF architecture integrated with Pixhawk/Jetson concepts.  
+
+---
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid
+       path="assets/img/TeamPicture.jpg"
+       title="RPAC TEAM Picture"
+       class="img-fluid rounded z-depth-1"
+       zoomable=true %}
   </div>
 </div>
-```
+<div class="caption">
+These were the members of the RESCUE PACK team from NC STATE University
+</div>
 
-{% endraw %}
+---
+
+### My Role in RESCURE PACK
+I contributed to both the **AI/computer vision** and **structural design** aspects of RPAC. My focus was on ensuring the autonomy system could detect, classify, and respond to hazards while also helping refine the vehicle’s airframe design for safety and performance. Although I have since **graduated from NC State and moved on from the team**, I’m proud of the work I contributed and the progress RESCURE PACK continues to make.  
+
+**Key Contributions**  
+- Assisted in developing the **YOLOv9 + LiDAR autonomy pipeline** for obstacle detection and mission adaptability.  
+- Worked on **computer vision algorithms** for situational awareness and landing accuracy.  
+- Supported **structural design and analysis**, including CAD development and structural trades.  
+- Helped prepare the **Phase 1 technical report**, focusing on autonomy and design documentation.  
+
+---
+
+### Gallery
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/LidarSystemOnAircraft.png"
+         alt="RPAC CAD airframe design"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">CAD airframe with LIDARS design</p>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/SpinningAxialLidar.png"
+         alt="LIDAR developed in House"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">LIDAR developed in House</p>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/AIControllerArchitecture.png"
+         alt="Autonomy and computer vision pipeline"
+         class="img-fluid rounded z-depth-1"
+         data-zoomable
+         style="max-height:250px; object-fit:contain;">
+    <p class="mt-2">Autonomy + computer vision pipeline</p>
+  </div>
+</div>
+
+<div class="row justify-content-sm-center mt-4">
+  <div class="col-sm-10 text-center">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+              src="https://www.youtube.com/embed/p7295u0iWw8"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+    <p class="mt-2 text-muted">
+      Local news feature — presenting RPAC as team spokesperson
+    </p>
+  </div>
+</div>
+
+
+
+
+
+<section class="mt-4">
+  <h3>In the News</h3>
+  <p>
+    As part of our Phase 1 recognition, I had the opportunity to appear on
+    local news to share the work of <strong>RESCURE PACK</strong> with the
+    public. Serving as the team’s main spokesperson, I presented our concept
+    and explained how the <strong>RPAC</strong> aircraft can transform
+    disaster response. It was a fun and rewarding experience to communicate
+    our ideas beyond the engineering community and generate public interest
+    in the project.
+  </p>
+</section>
+
