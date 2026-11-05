@@ -1,11 +1,12 @@
 ---
 layout: page
 title: REACHR
-description: (Currently working on) Autonomous drone designed for FEMA/NASA relief missions
+description: Disaster-response UAV integration and real-time ground-based perception
 img: assets/img/REACHR_PIC.png
-importance: 1
+importance: 3
 category: work
 related_publications: false
+status: 'Contributions: 2024–2025'
 ---
 <div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
   <img src="/assets/img/reachr-hero-banner.png"
@@ -14,25 +15,25 @@ related_publications: false
        style="width:100%; max-height:340px; object-fit:cover;">
 </div>
 
-**Summary**  
-REACHR is building **HERO 2**, a VTOL-capable flying boat UAV for disaster response. The system blends high-resolution imaging, IR sensing, real-time data links, and a hybrid-electric powertrain for long-endurance operations in flooded or remote areas. I contribute on autonomy, networking, and electrical integration.
+**Summary**
+REACHR is building **HERO 2**, a VTOL-capable flying boat UAV for disaster response. The system blends high-resolution imaging, IR sensing, real-time data links, and a hybrid-electric powertrain for long-endurance operations in flooded or remote areas. My contributions during **2024–2025** focused on autonomy, networking, electrical integration, structures, and controls.
 
-The **REACHR Project** at NC State University is developing **HERO 2**, a VTOL-capable flying boat UAV for disaster response. HERO 2 combines high-resolution imaging, infrared sensors, real-time data transmission, and a hybrid-electric powertrain for long-endurance autonomous operations in flooded or remote areas.  
+The **REACHR Project** at NC State University is developing **HERO 2**, a VTOL-capable flying boat UAV for disaster response. HERO 2 combines high-resolution imaging, infrared sensors, real-time data transmission, and a hybrid-electric powertrain for long-endurance autonomous operations in flooded or remote areas.
 
-Our mission is simple: **advance unmanned aerial system technology for critical response and surveillance.** With a multidisciplinary student team, REACHR aims to redefine how UAVs move and operate, ensuring efficient and effective performance when people need it most.  
+Our mission is simple: **advance unmanned aerial system technology for critical response and surveillance.** With a multidisciplinary student team, REACHR aims to redefine how UAVs move and operate, ensuring efficient and effective performance when people need it most.
 
 ### Journey so far
-- **2023** — Project initiated at NC State to design a disaster-response UAV.  
-- **2024** — Won NASA Blue Skies **Most Innovative** award.  
-- **2025** — Awarded an **$80K USRC grant** to build a full-scale prototype with FEMA and NCDPS for Ocracoke Island, NC.  
+- **2023** — Project initiated at NC State to design a disaster-response UAV.
+- **2024** — Won NASA Blue Skies **Most Innovative** award.
+- **2025** — Awarded an **$80K USRC grant** to build a full-scale prototype with FEMA and NCDPS for Ocracoke Island, NC.
 
 ### HERO 2 operations include
-- Swift deployment with modular assembly and VTOL take-off.  
-- Hybrid-electric climb to altitude for endurance and coverage.  
-- Infrared scanning to detect survivors and hazards.  
-- Ground-station processing for optimized rescue planning.  
-- Network dissemination for real-time coordination with agencies.  
-- Rapid refitting with modular payloads for future missions.  
+- Swift deployment with modular assembly and VTOL take-off.
+- Hybrid-electric climb to altitude for endurance and coverage.
+- Infrared scanning to detect survivors and hazards.
+- Ground-station processing for optimized rescue planning.
+- Network dissemination for real-time coordination with agencies.
+- Rapid refitting with modular payloads for future missions.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -41,23 +42,23 @@ Our mission is simple: **advance unmanned aerial system technology for critical 
        title="REACHR CONOPS Diagram"
        class="img-fluid rounded z-depth-1"
        zoomable=true %}
-    
+
   </div>
 </div>
 <div class="caption">
   Concept of operations showing HERO 2 mission flow from launch to rescue support.
 </div>
 
-The **REACHR Concept of Operations (CONOPS)** illustrates how HERO 2 supports disaster response missions end to end.  
+The **REACHR Concept of Operations (CONOPS)** illustrates how HERO 2 supports disaster response missions end to end.
 
-1. **Rapid Assembly & Launch** — Modular field assembly; VTOL from land or water.  
-2. **Climb to Altitude** — Hybrid-electric powertrain for efficient climb and long endurance.  
-3. **Heartbeat Detection** — NASA FINDER and IR payloads scan for survivors, hotspots, and hazards.  
-4. **Rescue Planning** — Ground-station processing and AI tools generate an optimized rescue plan.  
-5. **Network Dissemination** — Plans shared via the REACHR network for real-time coordination.  
-6. **Mission Refitting** — Quick reconfiguration for surveillance, delivery, or continued response.  
+1. **Rapid Assembly & Launch** — Modular field assembly; VTOL from land or water.
+2. **Climb to Altitude** — Hybrid-electric powertrain for efficient climb and long endurance.
+3. **Heartbeat Detection** — NASA FINDER and IR payloads scan for survivors, hotspots, and hazards.
+4. **Rescue Planning** — Ground-station processing and AI tools generate an optimized rescue plan.
+5. **Network Dissemination** — Plans shared via the REACHR network for real-time coordination.
+6. **Mission Refitting** — Quick reconfiguration for surveillance, delivery, or continued response.
 
-Together, this cycle delivers critical data quickly, improves situational awareness, and accelerates rescue operations in flooded or isolated regions.  
+Together, this cycle delivers critical data quickly, improves situational awareness, and accelerates rescue operations in flooded or isolated regions.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
@@ -94,7 +95,7 @@ Together, this cycle delivers critical data quickly, improves situational awaren
 <section>
   <h3>My Role in REACHR</h3>
   <p>
-    I focus on the <strong>autonomy, networking, and electrical integration</strong> of HERO 2, bridging algorithms, communications, and hardware reliability to ensure the aircraft can operate in demanding conditions.
+    During 2024–2025, I focused on the <strong>autonomy, networking, and electrical integration</strong> of HERO 2, bridging algorithms, communications, and hardware reliability to ensure the aircraft can operate in demanding conditions.
   </p>
   <p>
     Although I was not part of the initial REACHR senior design team, I joined soon after while leading my own project. Rather than working in isolation, I collaborated with REACHR members by assisting with system tuning, setup, and sharing components such as computer-vision modules. This collaboration has been rewarding, and I believe REACHR demonstrates the real potential of UAVs in humanitarian response and disaster relief.
@@ -102,10 +103,17 @@ Together, this cycle delivers critical data quickly, improves situational awaren
 
   <h4>Key Contributions</h4>
   <ul>
-    <li>Developed and tested <strong>landing algorithms</strong> using computer vision for reliable detection and touchdown.</li>
+    <li>Adapted computer vision for <strong>real-time aerial human detection and landing-site selection</strong>, processing streamed aircraft data on a ground computer because onboard computing and storage were limited.</li>
     <li>Integrated <strong>Starlink connectivity</strong> and configured mobile hotspots to enable real-time data streaming from the UAV.</li>
     <li>Produced and maintained <strong>electrical diagrams</strong> and supported the <strong>internal electrical system layout</strong> for avionics and payloads.</li>
     <li>Established <strong>hardware monitoring</strong> to track power and system health during testing.</li>
     <li>Contributed to <strong>operational documentation and checklists</strong>, linking technical workflows with field procedures.</li>
   </ul>
 </section>
+
+
+### From recorded data to real-time processing
+
+The perception work developed through Poseidon was initially evaluated using recorded imagery and video. For REACHR, it evolved into a real-time workflow: aircraft data was streamed to a ground computer for human detection and landing-site selection. This architecture accommodated the aircraft's limited onboard computing and storage.
+
+I led a **five-member team** supporting structures, controls, and avionics, contributed to system architecture and flight control development, and prepared SWOT analysis for SBIR proposals. The project received **$80,000** during my involvement.

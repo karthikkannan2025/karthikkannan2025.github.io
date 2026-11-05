@@ -1,167 +1,172 @@
 {
   "basics": {
     "name": "Karthik Kannan",
-    "label": "Mechanical & Aerospace Engineer",
+    "label": "Aerospace Engineer | Flight Controls, Integration & Test",
     "image": "",
     "email": "karthikkannan2020@yahoo.com",
     "phone": "7242494563",
     "url": "https://karthikkannan2025.github.io",
-    "summary": "Mechanical and Aerospace Engineer with a multidisciplinary background spanning aerospace structures, AI/ML, autonomy, and systems integration. Experienced in leading UAV projects, writing autonomy algorithms, and working with NASA, FEMA, and Collier Aerospace. Motivated to push innovation in aerospace and robotics."
+    "summary": "Ambitious aerospace engineer who enjoys tackling difficult problems, learning unfamiliar systems, and taking ideas from concept to working hardware. Motivated by challenging work that demands creativity, persistence, and technical ownership. Passionate about aerospace and robotics, with a hands-on approach to building, testing, and improving systems."
   },
-
-"work": [
-  {
-    "name": "Collier Aerospace – Sponsored by NASA NC Space Grant",
-    "position": "Structural & Software Engineering Intern",
-    "url": "https://collieraerospace.com",
-    "location": "Raleigh, NC / Remote",
-    "startDate": "2024-06-01",
-    "endDate": "Present",
-    "summary": "Worked on structural analysis, automation, and research funded through NASA NC Space Grant.",
-    "highlights": [
-      "Analyzed and sized composite and metallic aerospace structures using HyperX, optimizing strength-to-weight ratios.",
-      "Performed FEA in FEMAP and NASTRAN to assess stresses, load paths, and margins of safety.",
-      "Conducted material and architectural trade studies, producing documentation for NASA, Blue Origin, Electra and Boeing.",
-      "Spearheaded a new conductive documentation pipeline, unifying HyperX output with Excel reporting.",
-      "Worked on several proprietary internal projects, and created unique scripting stress reports",
-      "Bridged engineering and software by building Python-based automation tools for HyperX workflows.",
-      "Presented automation methods at a NASA symposium showcasing aerospace software innovation.",
-      "Researched spar optimization and wing box architecture to improve efficiency and manufacturability."
-    ]
-  },
-  {
-    "name": "REACHR Project – NC State University",
-    "position": "Controls, Avionics & Structures Team Lead",
-    "url": "https://mae.ncsu.edu/reachr/",
-    "location": "Raleigh, NC",
-    "startDate": "2023-08-01",
-    "endDate": "Present",
-    "summary": "Led autonomy, controls, and structures development for FEMA-backed HERO 2 amphibious UAV.",
-    "highlights": [
-      "Designed and implemented autonomous flight control algorithms for stability and navigation.",
-      "Integrated avionics including GPS, IMUs, barometers, and telemetry for real-time health monitoring.",
-      "Built hardware-in-the-loop simulations and test plans for autonomous validation.",
-      "Coordinated interdisciplinary teams across AI/ML, avionics, and mechanical systems.",
-      "Demonstrated field testing at Ocracoke Island for FEMA disaster-response operations.",
-      "Developed computer vision modules for autonomous landing and obstacle avoidance."
-    ]
-  },
-  {
-    "name": "GoAero Prize – RESCURE PACK Team",
-    "position": "Structures & AI/ML Team Lead",
-    "url": "https://www.goaeroprize.com/post/meet-the-teams-rescuepack-ncstate-nasa-winner",
-    "location": "Raleigh, NC",
-    "startDate": "2023-09-01",
-    "endDate": "2024-12-01",
-    "summary": "Represented NC State in a national UAV competition, winning Phase 1 and securing $30,000 in funding.",
-    "highlights": [
-      "Led structural design and AI/ML integration for RPAC (Rescue Pack) UAV.",
-      "Built object detection and terrain classification systems for disaster-response autonomy.",
-      "Derived aircraft equations of motion to support advanced flight control design.",
-      "Managed integration across structures, avionics, and AI subsystems.",
-      "Served as team spokesperson on WRAL news and FEMA-aligned presentations.",
-      "Authored technical reports, FEMA use cases, and funding proposals."
-    ]
-  },
-  {
-    "name": "Teaching Assistant – NC State University",
-    "position": "TA for Aerospace Engineering Courses",
-    "url": "https://www.mae.ncsu.edu/",
-    "location": "Raleigh, NC",
-    "startDate": "2022-08-01",
-    "endDate": "2023-05-01",
-    "summary": "Supported aerospace courses including Intro to Aerospace, Structures, and Applied Aerodynamics.",
-    "highlights": [
-      "Assisted over 150 students through labs, grading, and structured review sessions.",
-      "Led demos on aerodynamic flow visualization and structural testing.",
-      "Collaborated with professors on curriculum design and assessments.",
-      "Maintained a high-energy teaching style recognized by students and faculty."
-    ]
-  },
-  {
-    "name": "Four Colors Tech",
-    "position": "Software & AI Intern",
-    "url": "https://www.fourcolorstech.com/",
-    "location": "Westborough, MA",
-    "startDate": "2023-05-01",
-    "endDate": "2024-01-01",
-    "summary": "Worked at early-stage AI startup on proprietary LLM-powered enterprise assistant (COG).",
-    "highlights": [
-      "Optimized large language models for PLM and CAD data environments.",
-      "Fine-tuned NLP models for classification, summarization, and revision tracking.",
-      "Built self-healing automation systems for enterprise workflows.",
-      "Streamlined automation pipelines with Playwright and Selenium, cutting QA time by 40%.",
-      "Secured training datasets using masking and anonymization strategies.",
-      "Supported NX CAD optimization workflows and PLM standardization strategies."
-    ]
-  },
-  {
-    "name": "Undead Electronics",
-    "position": "Technician",
-    "url": "https://undeadelectronics.tech/",
-    "location": "Raleigh, NC",
-    "startDate": "2021-08-01",
-    "endDate": "2022-08-01",
-    "summary": "Repaired and serviced electronics in a fast-paced repair environment.",
-    "highlights": [
-      "Diagnosed and repaired 100+ devices including phones, laptops, and tablets.",
-      "Performed micro-soldering and IC replacement for motherboard repair.",
-      "Recovered and migrated customer data from damaged devices.",
-      "Maintained repair documentation and improved shop intake workflows."
-    ]
-  },
-  {
-    "name": "Zaloni",
-    "position": "Software Engineering Intern",
-    "url": "https://www.zaloni.com/",
-    "location": "Durham, NC",
-    "startDate": "2020-06-01",
-    "endDate": "2020-08-01",
-    "summary": "Developed automation solutions for healthcare data pipelines at enterprise data company.",
-    "highlights": [
-      "Built automated pipelines to catalog DICOM medical images and records.",
-      "Developed parsers in Java/Python to integrate metadata into SQL Server.",
-      "Deployed a production system at Duke Hospitals saving $100,000 annually.",
-      "Improved fault tolerance and batch-processing speed for clinical data ingestion."
-    ]
-  }
-]
-
-,
-
+  "work": [
+    {
+      "name": "Boeing",
+      "position": "GNC Engineer 2",
+      "location": "Everett, WA",
+      "startDate": "2026-04",
+      "endDate": "",
+      "url": "/projects/boeing/",
+      "summary": "777X Primary Flight Function testing and verification",
+      "highlights": [
+        "Verify 777X Primary Flight Function (PFF) requirements through hardware-in-the-loop (HIL), software-in-the-loop (SIL), and on-aircraft testing using the Integrated Test Vehicle (ITV) and Psim simulation model.",
+        "Develop Psim aircraft scenarios and a custom Python parser, reproducing simulated conditions on ITV live hydraulic hardware; export test data to MATLAB for analysis and reporting.",
+        "Develop Python tools and structured reporting templates for global engineering teams, standardizing test documentation and guiding completion of information for Boeing PFF and FAA certification reviews.",
+        "Built a Python onboarding assistant using a local LLM to help PFF contractors find getting-started guidance in the team wiki.",
+        "Trace upstream and downstream signals in Simulink models to identify requirement-verification evidence, investigate discrepancies, and support corrections to test cases and documentation.",
+        "Contribute across PFF safety analysis, requirements, and test activities; collaborate with the FAA and engineering stakeholders to support Boeing 777-9 certification."
+      ]
+    },
+    {
+      "name": "Mach Industries",
+      "position": "Flight Test Engineer",
+      "location": "Huntington Beach, CA",
+      "startDate": "2025-10",
+      "endDate": "2026-03",
+      "url": "/projects/mach/",
+      "summary": "UAS development, ground testing, and flight test",
+      "highlights": [
+        "Planned and led selected flight tests for a UAS developed from concept to first flight in three months, defining flight plans, coordinating execution, and documenting discrepancies and lessons learned.",
+        "Designed and operated propulsion and avionics ground test infrastructure, including engine test stands, hot-fire and thermal-soak testing, thrust measurements, and vibration characterization.",
+        "Supported testing of aircraft communications, onboard video streaming, and accelerometer data streams used in GPS-denied navigation development; performed post-test data reduction and root cause analysis.",
+        "Delivered technical and product briefings to senior government officials, military leaders, and international delegations, adapting engineering information to varied audiences. Interviewed prospective engineers."
+      ]
+    },
+    {
+      "name": "Collier Aerospace",
+      "position": "Structural/Software Engineer",
+      "location": "Raleigh, NC",
+      "startDate": "2024-05",
+      "endDate": "2025-10",
+      "url": "/projects/collier/",
+      "summary": "Aerospace structural analysis and Python automation",
+      "highlights": [
+        "Analyzed and sized composite and metallic aerospace structures using HyperX, performing trade studies and delivering technical reports for customers including NASA, Electra, ULA, Blue Origin, and Boeing.",
+        "Performed finite element analysis (FEA) in FEMAP and NASTRAN to evaluate load paths, stress distributions, and potential failure modes in aerospace components.",
+        "Developed Python automation tools and plug-ins implementing structural mechanics methods to assess aircraft-specific spar cutout sizes and shapes, structural performance, and weight-reduction trade studies.",
+        "Supported environmental loads analysis and high-temperature composites research, preparing structural trade studies and technical documentation tailored to customer-specific requirements."
+      ]
+    },
+    {
+      "name": "Teaching Assistant – NC State University",
+      "position": "TA for Aerospace Engineering Courses",
+      "url": "https://www.mae.ncsu.edu/",
+      "location": "Raleigh, NC",
+      "startDate": "2022-08-01",
+      "endDate": "2023-05-01",
+      "summary": "Supported aerospace courses including Intro to Aerospace, Structures, and Applied Aerodynamics.",
+      "highlights": [
+        "Assisted over 150 students through labs, grading, and structured review sessions.",
+        "Led demos on aerodynamic flow visualization and structural testing.",
+        "Collaborated with professors on curriculum design and assessments.",
+        "Maintained a high-energy teaching style recognized by students and faculty."
+      ]
+    },
+    {
+      "name": "Four Colors Tech",
+      "position": "Software & AI Intern",
+      "url": "https://www.fourcolorstech.com/",
+      "location": "Westborough, MA",
+      "startDate": "2023-05-01",
+      "endDate": "2024-01-01",
+      "summary": "Worked at early-stage AI startup on proprietary LLM-powered enterprise assistant (COG).",
+      "highlights": [
+        "Optimized large language models for PLM and CAD data environments.",
+        "Fine-tuned NLP models for classification, summarization, and revision tracking.",
+        "Built self-healing automation systems for enterprise workflows.",
+        "Streamlined automation pipelines with Playwright and Selenium, cutting QA time by 40%.",
+        "Secured training datasets using masking and anonymization strategies.",
+        "Supported NX CAD optimization workflows and PLM standardization strategies."
+      ]
+    },
+    {
+      "name": "Undead Electronics",
+      "position": "Technician",
+      "url": "https://undeadelectronics.tech/",
+      "location": "Raleigh, NC",
+      "startDate": "2021-08-01",
+      "endDate": "2022-08-01",
+      "summary": "Repaired and serviced electronics in a fast-paced repair environment.",
+      "highlights": [
+        "Diagnosed and repaired 100+ devices including phones, laptops, and tablets.",
+        "Performed micro-soldering and IC replacement for motherboard repair.",
+        "Recovered and migrated customer data from damaged devices.",
+        "Maintained repair documentation and improved shop intake workflows."
+      ]
+    },
+    {
+      "name": "Zaloni",
+      "position": "Software Engineering Intern",
+      "url": "https://www.zaloni.com/",
+      "location": "Durham, NC",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-01",
+      "summary": "Developed automation solutions for healthcare data pipelines at enterprise data company.",
+      "highlights": [
+        "Built automated pipelines to catalog DICOM medical images and records.",
+        "Developed parsers in Java/Python to integrate metadata into SQL Server.",
+        "Deployed a production system at Duke Hospitals saving $100,000 annually.",
+        "Improved fault tolerance and batch-processing speed for clinical data ingestion."
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "North Carolina State University",
       "location": "Raleigh, NC",
       "url": "https://www.ncsu.edu/",
-      "area": "Mechanical & Aerospace Engineering",
-      "studyType": "M.S.",
-      "startDate": "2023-08-01",
-      "endDate": "2025-05-01",
-      "summary": "Focus in aerospace structures, AI/ML in engineering."
+      "area": "Aerospace Engineering",
+      "studyType": "Master’s",
+      "startDate": "2023-08",
+      "endDate": "2025-05",
+      "courses": [
+        "GPA: 3.9/4.0"
+      ]
     },
     {
       "institution": "North Carolina State University",
       "location": "Raleigh, NC",
       "url": "https://www.ncsu.edu/",
-      "area": "Mechanical & Aerospace Engineering",
-      "studyType": "B.S.",
-      "startDate": "2020-08-01",
-      "endDate": "2024-05-01",
-      "summary": "Graduated Magna Cum Laude. Dean’s List every semester."
+      "area": "Aerospace Engineering",
+      "studyType": "Bachelor’s",
+      "startDate": "2020-08",
+      "endDate": "2024-05",
+      "courses": [
+        "GPA: 3.9/4.0"
+      ]
     },
     {
       "institution": "North Carolina State University",
       "location": "Raleigh, NC",
       "url": "https://www.ncsu.edu/",
-      "area": "Computer Science",
+      "area": "Computer Programming",
       "studyType": "Minor",
-      "startDate": "2021-08-01",
-      "endDate": "2023-05-01",
-      "summary": "Minor in Computer Science complementing engineering degree."
+      "endDate": "2024-05",
+      "courses": [
+        "Completed May 2024"
+      ]
+    },
+    {
+      "institution": "North Carolina State University",
+      "location": "Raleigh, NC",
+      "url": "https://www.ncsu.edu/",
+      "area": "Materials Science and Engineering (MSE)",
+      "studyType": "Minor",
+      "endDate": "2023-05",
+      "courses": [
+        "Completed May 2023"
+      ]
     }
   ],
-
   "awards": [
     {
       "title": "NASA Blue Skies – Most Innovative Award",
@@ -173,7 +178,7 @@
       "title": "GoAero Prize Phase 1 Winner",
       "date": "2024-12-01",
       "awarder": "GoAero Prize",
-      "summary": "Led NC State’s RESCURE PACK team; awarded $30,000 in funding."
+      "summary": "Contributed during 2024–2025; the team received approximately $70,000 during my involvement."
     },
     {
       "title": "FEMA-backed USRC Grant",
@@ -183,81 +188,74 @@
     },
     {
       "title": "Undergraduate Research Grant Recipient",
-      "date": "2023-01-01",
+      "date": "2022",
       "awarder": "NASA NC Space Grant",
-      "summary": "Received $4,000 grant for AI-driven material science research under Dr. Cheryl Xu."
+      "summary": "Received a $4,000 grant for materials research under Dr. Cheryl Xu using MATLAB and Python."
     }
   ],
-
   "skills": [
     {
-      "name": "Aerospace & Mechanical Engineering",
-      "level": "Advanced",
-      "icon": "fa-solid fa-rocket",
+      "name": "Software and AI",
       "keywords": [
-        "Structural Analysis (HyperX, FEMAP, NASTRAN, ANSYS, Abaqus)",
-        "FEA (static, buckling, fatigue, vibration)",
-        "CFD (ANSYS Fluent, XFOIL, MATLAB solvers)",
-        "Flight Dynamics & Controls (MATLAB/Simulink)",
-        "CAD: SolidWorks, Fusion 360, NX, Catia",
-        "PCB Design: Altium",
-        "Composite Layup & Materials Testing",
-        "GD&T, Machining, 3D Printing",
-        "Avionics Integration (Pixhawk, Jetson, Starlink)"
+        "Python",
+        "C/C++",
+        "Git",
+        "OpenCV",
+        "PyTorch",
+        "TensorFlow",
+        "neural networks",
+        "AI/ML",
+        "Jenkins",
+        "SQL",
+        "Java",
+        "VBA",
+        "JavaScript",
+        "HTML/CSS",
+        "data parsing",
+        "SAS",
+        "data recovery",
+        "Microsoft Office"
       ]
     },
     {
-      "name": "AI/ML & Autonomous Systems",
-      "level": "Advanced",
-      "icon": "fa-solid fa-brain",
+      "name": "Controls and Systems",
       "keywords": [
-        "Computer Vision (OpenCV, YOLOv5/YOLOv9)",
-        "Neural Networks (TensorFlow, PyTorch)",
-        "Drone Autonomy & Controls",
-        "Object Detection & Classification",
-        "Sensor Fusion & Navigation",
-        "ML Model Fine-Tuning & Evaluation"
+        "MATLAB",
+        "Simulink",
+        "dynamic modeling",
+        "UAV autonomy",
+        "ArduPilot",
+        "Pixhawk",
+        "systems integration",
+        "HIL/SIL",
+        "ITV",
+        "Psim",
+        "testbed development",
+        "DOORS",
+        "requirements verification",
+        "FMEA",
+        "root cause analysis",
+        "FAA certification support"
       ]
     },
     {
-      "name": "Software & Programming",
-      "level": "Proficient",
-      "icon": "fa-solid fa-laptop-code",
+      "name": "Design and Analysis",
       "keywords": [
-        "Python, C/C++, Java, MATLAB",
-        "Automation Scripting (Playwright, Selenium)",
-        "Database Handling (SQL Server)",
-        "Version Control (Git/GitHub)",
-        "Cloud Tools (AWS, Data Lakes)"
-      ]
-    },
-    {
-      "name": "Project Management & Systems Engineering",
-      "level": "Proficient",
-      "icon": "fa-solid fa-diagram-project",
-      "keywords": [
-        "System Requirements Development",
-        "Integration & Testing",
-        "Cross-Disciplinary Team Leadership",
-        "Customer-Facing Communication",
-        "Project Planning (MS Project, Excel, PowerPoint)"
-      ]
-    },
-    {
-      "name": "Soft Skills & Recognition",
-      "level": "Strong",
-      "icon": "fa-solid fa-star",
-      "keywords": [
-        "Public Speaking & Presentation (NASA, WRAL Feature)",
-        "Technical Writing & Documentation (AIAA Paper)",
-        "Collaborative Leadership",
-        "Teaching & Mentorship (TA for 150+ students)",
-        "Problem Solving in Fast-Paced Environments",
-        "Award-Winning Research & Competition Experience"
+        "SolidWorks",
+        "Onshape",
+        "CATIA",
+        "HyperX",
+        "FEMAP",
+        "NASTRAN",
+        "HyperMesh",
+        "ANSYS",
+        "FEA",
+        "fluid dynamics",
+        "materials design",
+        "technical documentation and report writing"
       ]
     }
   ],
-
   "languages": [
     {
       "language": "English",
@@ -270,35 +268,54 @@
       "icon": "fa-solid fa-flag"
     }
   ],
-
   "interests": [
     {
       "name": "Aerospace Innovation",
       "icon": "fa-solid fa-plane",
-      "keywords": ["UAV Design", "eVTOL Systems", "Autonomous Flight"]
+      "keywords": [
+        "UAV Design",
+        "eVTOL Systems",
+        "Autonomous Flight"
+      ]
     },
     {
       "name": "AI & Robotics",
       "icon": "fa-solid fa-robot",
-      "keywords": ["Computer Vision", "Neural Networks", "Autonomy"]
+      "keywords": [
+        "Computer Vision",
+        "Neural Networks",
+        "Autonomy"
+      ]
     },
     {
       "name": "Entrepreneurship",
       "icon": "fa-solid fa-lightbulb",
-      "keywords": ["Startups", "Innovation", "Product Design", "Following Startup Ideas"]
+      "keywords": [
+        "Startups",
+        "Innovation",
+        "Product Design",
+        "Following Startup Ideas"
+      ]
     },
     {
       "name": "Sports & Outdoors",
       "icon": "fa-solid fa-volleyball-ball",
-      "keywords": ["Volleyball", "Running", "Travel"]
+      "keywords": [
+        "Volleyball",
+        "Running",
+        "Travel"
+      ]
     },
     {
       "name": "Cooking",
       "icon": "fa-solid fa-utensils",
-      "keywords": ["Experimenting with Recipes", "Meal Prep", "Cultural Cuisine"]
+      "keywords": [
+        "Experimenting with Recipes",
+        "Meal Prep",
+        "Cultural Cuisine"
+      ]
     }
   ],
-
   "publications": [
     {
       "name": "Innovative Drone Systems for Disaster Response",
@@ -307,6 +324,45 @@
       "url": "https://arc.aiaa.org/doi/10.2514/6.2024-85684",
       "summary": "Published paper detailing the design and validation of an autonomous drone system for natural disaster response, integrating power line charging, YOLOv8-based vision, and swarm intelligence for urban deployment."
     }
-  ]    
-
+  ],
+  "projects": [
+    {
+      "name": "REACHR | Controls, Avionics and Structures Team Lead | 2024–2025",
+      "startDate": "2024",
+      "endDate": "2025",
+      "url": "/projects/1_project/",
+      "summary": "Led a five-member team in structures, controls, and avionics for a FEMA-backed amphibious UAV awarded $80,000. Adapted real-time human detection and landing-site selection to process aircraft streams on a ground computer due to onboard compute/storage limits. Supported system architecture and flight controls; prepared SWOT analysis for SBIR proposals."
+    },
+    {
+      "name": "GoAERO | Structures and AI/ML Team Lead | 2024–2025",
+      "startDate": "2024",
+      "endDate": "2025",
+      "url": "/projects/2_project/",
+      "summary": "Led a seven-member team in structural design and AI/ML integration, including object detection, for a rescue UAV; served as team spokesperson. The team received ~$70,000 during tenure."
+    },
+    {
+      "name": "Poseidon UAV | Senior Design Project Manager | 2023–2024",
+      "startDate": "2023",
+      "endDate": "2024",
+      "url": "/projects/7_project/",
+      "summary": "Led avionics, payload integration, and structural analysis for a NASA Blue Skies disaster-response UAV. Developed computer vision for landing-site selection and aerial human detection, evaluated using recorded imagery and video; authored an AIAA paper on disaster-response drone concepts."
+    },
+    {
+      "name": "Materials Research | NC State University | 2022",
+      "startDate": "2022",
+      "endDate": "2022",
+      "url": "/projects/3_project/",
+      "summary": "Developed a MATLAB/Python neural network under Dr. Cheryl Xu to predict composite return loss and explore ceramic compositions; transferred the model to an industry collaborator for training on a larger dataset. Received a $4,000 research grant."
+    },
+    {
+      "name": "Volleyball Setting Machine",
+      "summary": "Prototyping",
+      "url": "/projects/10_project/"
+    },
+    {
+      "name": "Wind Turbine Blade Cleaning Drone",
+      "summary": "Concept and design",
+      "url": "/projects/11_project/"
+    }
+  ]
 }

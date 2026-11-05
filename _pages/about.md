@@ -2,37 +2,34 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
-
+subtitle: Flight controls · Systems integration · Robotics
 profile:
   align: right
   image: KK_Headshot.jpeg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+  image_circular: false
+  more_info: ''
+selected_papers: true
+social: true
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 0 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
+  scrollable: false
+  limit: 0
 latest_posts:
   enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 0 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 0
 ---
 
-Hello, I’m Karthik Kannan, an aerospace engineer with a Master’s from NC State and a minor in Computer Science. I’m naturally curious and enjoy learning across disciplines, which is why I gravitate toward roles where I can connect different pieces together.
+I'm **Karthik Kannan**, an aerospace engineer who enjoys tackling difficult problems, learning unfamiliar systems, and taking ideas from concept to working hardware. I am motivated by work that demands creativity, persistence, and technical ownership.
 
-I value teamwork and find that I do my best work when I’m surrounded by people who are equally motivated. I like to stay hands-on, whether that’s testing, building, or troubleshooting, because it keeps me connected to the real impact of my work.
+I currently work as a **GNC Engineer 2 on Boeing's 777X Primary Flight Function team**, focusing on flight control testing and verification. I develop simulation scenarios, work with live hydraulic test hardware, and build Python tools that connect test data with engineering analysis and reporting.
 
-My main goal in life is to make my mark on the world. I’m driven by ambition and dreams to be remembered for what I’ve contributed whether that impact is small or big. At the core, I want to help people through the work I do.
+Before Boeing, I worked in **UAS flight testing at Mach Industries** and **structural analysis and software development at Collier Aerospace**. Those roles shaped how I approach engineering: understand the physical system, build useful tools, investigate discrepancies, and follow through on what the data shows.
 
-I have a multidisciplinary background that shapes how I approach problems. I’m not afraid to take things apart or push designs to their limits, because I learn best by uncovering how things really work. I also tend to think in worst-case scenarios, which helps me prepare for challenges. If the worst happens, I’m ready and if it doesn’t, the outcome is better than anything I planned for.
+I hold a **master's in Aerospace Engineering (2025)** and a **bachelor's in Aerospace Engineering (2024)** from NC State, with minors in **Computer Programming** and **Materials Science and Engineering**. My university work included disaster-response UAVs, computer vision, materials research, and teaching more than 150 students.
 
-My motto is simple: “You can only climb a mountain by the steps you take.” That perspective keeps me focused on progress one step at a time, helps me savor each failure, and motivates me until I succeed.
+Outside work, I am prototyping a **volleyball setting machine** and developing a **wind turbine blade cleaning drone concept**. These projects give me room to keep learning across mechanical design, electrical systems, software, and robotics.
 
-I’m a U.S. citizen and open to opportunities nationwide. My goal is simple: keep learning, keep building, and keep contributing wherever I can make a difference.
+I value teammates who are curious, direct, and willing to work through difficult problems together. I'm a U.S. citizen and open to opportunities nationwide.
+
+[Explore my experience]({{ '/experience/' | relative_url }}) · [See my projects]({{ '/Projects/' | relative_url }}) · [Read my resume]({{ '/resume/' | relative_url }})
