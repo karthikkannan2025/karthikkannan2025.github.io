@@ -1,8 +1,7 @@
 ---
 layout: page
 title: AIAA Paper — Autonomous Power Line Retrieval Drone
-description: Published AIAA SciTech paper on UAV autonomy, YOLOv8 computer vision,
-  and in-flight power line charging
+description: Published AIAA paper on UAV autonomy, computer vision, and power line charging
 img: assets/img/Published_Paper_pic.jpg
 importance: 7
 category: work
