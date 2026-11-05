@@ -37,14 +37,17 @@ making the very infrastructure (power lines) that causes danger part of the solu
 The project combines autonomy, vision, and energy resilience into a cohesive system:
 
 - **Power Line Charging Integration**
+
   - Enables UAVs to perch and recharge directly from power lines.
   - Provides near-continuous operation in disaster zones, overcoming battery life limitations.
 
 - **YOLOv8 + Computer Vision Autonomy**
+
   - Detects **fallen power lines, damaged infrastructure, and human survivors** in real-time.
   - Provides actionable data streams to first responders for faster, safer operations.
 
 - **Swarm Intelligence & PSO Pathfinding**
+
   - Coordinates packs of drones to cover large areas in minutes.
   - Uses **Particle Swarm Optimization (PSO/PSOP)** for dynamic pathfinding, obstacle avoidance, and task prioritization.
 
