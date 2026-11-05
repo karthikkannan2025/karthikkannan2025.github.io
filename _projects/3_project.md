@@ -1,11 +1,13 @@
 ---
 layout: page
 title: REU Research — AI for High-Temperature Composites
-description: REU research grant funded AI-driven optimization of aerospace composites
+description: MATLAB and Python neural networks for composite return loss and candidate
+  ceramic compositions
 img: assets/img/reu-hero-banner.png
-importance: 1
-category: work
+importance: 6
+category: research
 related_publications: false
+status: "Research: 2022"
 ---
 
 <div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
@@ -15,30 +17,43 @@ related_publications: false
        style="width:100%; max-height:340px; object-fit:cover;">
 </div>
 
-**Summary**  
-As a **REU Undergraduate Research grant**, I worked under **Dr. Cheryl Xu** at NC State University on AI-driven material discovery for **high-temperature ceramic matrix composites (CMCs)**. My project focused on using neural networks to optimize material compositions for aerospace applications such as **hypersonic vehicles, thermal protection systems, and RF shielding**. This work earned me a **$4,000 grant** and a **First Place award** at the NC Space Grant Research Symposium.
+**Summary**
+In **2022**, as an undergraduate researcher, I worked under **Dr. Cheryl Xu** at NC State University on AI-driven material discovery for **high-temperature ceramic matrix composites (CMCs)**. My project focused on using neural networks to predict composite return loss and explore candidate ceramic compositions for aerospace applications such as **hypersonic vehicles, thermal protection systems, and RF shielding**. This work earned me a **$4,000 grant** and a **First Place award** at the NC Space Grant Research Symposium.
 
 ---
 
 ### Research Objectives
-- Develop a **neural network regression model** to predict material properties from experimental datasets.  
-- Use NASA NCamp **high-temperature data** to identify optimal ceramic matrix composites.  
-- Bridge **AI/ML techniques** with aerospace materials design workflows.  
-- Support long-term lab goals for **automated material discovery**.  
+
+- Develop a **neural network regression model** to predict material properties from experimental datasets.
+- Explore candidate ceramic compositions and transfer the model to an industry collaborator with a larger dataset.
+- Bridge **AI/ML techniques** with aerospace materials design workflows.
+- Support long-term lab goals for **automated material discovery**.
 
 ---
 
 ### Key Contributions
-- Built a **custom regression neural network** using TensorFlow for predicting Return Loss (S11) behavior of composites.  
-- Preprocessed and normalized raw RF datasets, including noise filtering and dimensionality reduction.  
-- Collaborated with Synesquo/CDm to **manufacture composite panels**, which were later tested by NASA.  
-- Validated AI predictions through **ANSYS HFSS simulations**, benchmarking against lab-scale data.  
-- Authored technical documentation for reproducibility and future transfer learning applications.  
-- Presented results during **NC Space Grant Symposium** and faculty briefings.  
+
+- Built a **custom neural network using MATLAB and Python** to predict composite return-loss performance and explore candidate ceramic compositions.
+- Preprocessed and normalized raw RF datasets, including noise filtering and dimensionality reduction.
+- Collaborated with Synesquo/CDm to **manufacture composite panels**, which were later tested by NASA.
+- Validated AI predictions through **ANSYS HFSS simulations**, benchmarking against lab-scale data.
+- Authored technical documentation for reproducibility and future transfer learning applications.
+- Presented results during **NC Space Grant Symposium** and faculty briefings.
 
 ---
 
+### Dataset and model transfer
+
+My initial work used data from **three to four actual composites**. I transferred the network to an industry collaborator, which trained it on a larger dataset to explore possible ceramic materials. Candidate compositions were model-generated hypotheses, rather than a claim that every proposed material had been manufactured and experimentally validated.
+
+### What a useful model could—and could not—tell us
+
+The problem brought programming and materials research together: use available measurements to model return-loss behavior, then explore possible compositions worth investigating. MATLAB and Python let me build the network and work with the data, but the limited number of physical composites constrained what I could establish experimentally.
+
+Transferring the network to a collaborator with more data extended the work beyond my initial samples. I see that distinction as central to the project: proposing a promising ceramic composition is one step, while manufacturing and testing it is another. The research gave me experience communicating both the potential of a model and the limits of the evidence behind it.
+
 ### Gallery
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="/assets/img/REU_Poster_Disp.JPG"
@@ -72,4 +87,5 @@ As a **REU Undergraduate Research grant**, I worked under **Dr. Cheryl Xu** at N
 ---
 
 ### Reflection
+
 This research gave me my first exposure to **bridging aerospace engineering with AI/ML**, a theme I’ve carried into my later projects like REACHR and GoAERO. It also solidified my interest in **multidisciplinary problem-solving**, combining data science, materials science, and aerospace applications.

@@ -1,11 +1,12 @@
 ---
 layout: page
 title: GoAERO Prize — RESCURE PACK (RPAC)
-description: Phase 1 winning 650 lb rescue eVTOL with autonomy and computer vision
+description: Rescue eVTOL concept, structural design, and AI/ML integration
 img: assets/img/goaero-hero-banner.png
-importance: 1
-category: work
+importance: 4
+category: research
 related_publications: false
+status: "Contributions: 2024–2025"
 ---
 
 <div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
@@ -15,33 +16,35 @@ related_publications: false
        style="width:100%; max-height:340px; object-fit:cover;">
 </div>
 
-**Summary**  
-Our team, **RESCURE PACK**, developed the **RPAC (Rescue Pack Autonomous Copter)** for the [GoAERO Prize](https://goaeroprize.com/), a national competition to design disaster-response aircraft. RPAC is a ~650 lb gross weight octocopter capable of transporting a casualty, supplies, or equipment into areas inaccessible to traditional vehicles. Our concept was selected as a **Phase 1 winner**, advancing toward full-scale prototyping.  
+**Summary**
+Our team, **RESCURE PACK**, developed the **RPAC (Rescue Pack Autonomous Copter)** for the [GoAERO Prize](https://goaeroprize.com/), a national competition to design disaster-response aircraft. RPAC was conceived as a ~650 lb gross weight octocopter intended to transport a casualty, supplies, or equipment into areas inaccessible to traditional vehicles. Our concept was selected as a **Phase 1 winner**, advancing toward full-scale prototyping.
 
 ---
 
 ### Journey so far
-- **2023** — Team RESCURE PACK formed across NC State University and RPI, guided by faculty advisors Dr. Gandhi and Dr. Ewere.  
-- **2024** — Designed RPAC for three mission classes: productivity, adversity, and maneuvering. Submitted Phase 1 technical report.  
-- **2025** — Selected as a **Phase 1 winner**; preparing for Phase 2 prototyping.  
+
+- **2023** — Team RESCURE PACK formed across NC State University and RPI, guided by faculty advisors Dr. Gandhi and Dr. Ewere.
+- **2024** — Designed RPAC for three mission classes: productivity, adversity, and maneuvering. Submitted Phase 1 technical report.
+- **2025** — Selected as a **Phase 1 winner**; preparing for Phase 2 prototyping.
 
 ---
 
-### RPAC Features
-- **Gross weight:** ~650 lb class octocopter.  
-- **Rotor system:** 8 × 4.2 ft rotors.  
-- **Dimensions:** 20 × 7.5 × 3.5 ft (road-legal transport).  
-- **Payload:** stretcher + 125 lb mannequin with additional 195 lb capacity.  
-- **Range:** 30+ miles on batteries.  
-- **Autonomy:** LiDAR + YOLOv9 pipeline for detection and navigation.  
-- **Flight control:** custom EMF architecture integrated with Pixhawk/Jetson concepts.  
+### RPAC Design Targets
+
+- **Gross weight:** ~650 lb class octocopter.
+- **Rotor system:** 8 × 4.2 ft rotors.
+- **Dimensions:** 20 × 7.5 × 3.5 ft (road-legal transport).
+- **Payload:** stretcher + 125 lb mannequin with additional 195 lb capacity.
+- **Range:** 30+ miles on batteries.
+- **Autonomy:** LiDAR + YOLOv9 pipeline for detection and navigation.
+- **Flight control:** custom EMF architecture integrated with Pixhawk/Jetson concepts.
 
 ---
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid
-       path="assets/img/TeamPicture.jpg"
+       path="assets/img/TeamPicture.JPG"
        title="RPAC TEAM Picture"
        class="img-fluid rounded z-depth-1"
        zoomable=true %}
@@ -53,18 +56,29 @@ These were the members of the RESCUE PACK team from NC STATE University
 
 ---
 
-### My Role in RESCURE PACK
-I contributed to both the **AI/computer vision** and **structural design** aspects of RPAC. My focus was on ensuring the autonomy system could detect, classify, and respond to hazards while also helping refine the vehicle’s airframe design for safety and performance. Although I have since **graduated from NC State and moved on from the team**, I’m proud of the work I contributed and the progress RESCURE PACK continues to make.  
+### My Role in RESCURE PACK — 2024–2025
 
-**Key Contributions**  
-- Assisted in developing the **YOLOv9 + LiDAR autonomy pipeline** for obstacle detection and mission adaptability.  
-- Worked on **computer vision algorithms** for situational awareness and landing accuracy.  
-- Supported **structural design and analysis**, including CAD development and structural trades.  
-- Helped prepare the **Phase 1 technical report**, focusing on autonomy and design documentation.  
+I contributed to both the **AI/computer vision** and **structural design** aspects of RPAC. My focus was on ensuring the autonomy system could detect, classify, and respond to hazards while also helping refine the vehicle’s airframe design for safety and performance. Although I have since **graduated from NC State and moved on from the team**, I’m proud of the work I contributed and the progress RESCURE PACK continues to make.
+
+I led a **seven-member team** in structures and AI/ML integration and served as team spokesperson. The team received **approximately $70,000 during my involvement**.
+
+**Key Contributions**
+
+- Assisted in developing the **YOLOv9 + LiDAR autonomy pipeline** for obstacle detection and mission adaptability.
+- Worked on **computer vision algorithms** for situational awareness and landing accuracy.
+- Supported **structural design and analysis**, including CAD development and structural trades.
+- Helped prepare the **Phase 1 technical report**, focusing on autonomy and design documentation.
 
 ---
 
+### Working across structure and perception
+
+My role connected the vehicle's physical design with the sensing and autonomy concept. The CAD work, sensor arrangements, and computer-vision pipeline needed to describe the same proposed aircraft. Helping with both sides made the interfaces between them a tangible part of the design work.
+
+The Phase 1 report required us to explain that system to people outside the immediate team. As a contributor and spokesperson, I had to connect the technical choices to the rescue mission while distinguishing the design targets from what had been demonstrated. My contributions were during 2024–2025; subsequent team development continued after I left.
+
 ### Gallery
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="/assets/img/LidarSystemOnAircraft.png"
@@ -107,10 +121,6 @@ I contributed to both the **AI/computer vision** and **structural design** aspec
   </div>
 </div>
 
-
-
-
-
 <section class="mt-4">
   <h3>In the News</h3>
   <p>
@@ -123,4 +133,3 @@ I contributed to both the **AI/computer vision** and **structural design** aspec
     in the project.
   </p>
 </section>
-

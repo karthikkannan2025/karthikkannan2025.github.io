@@ -1,97 +1,111 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
+    - name: Name
+      value: Karthik Kannan
+    - name: Focus
+      value: Aerospace Engineer | Flight Controls, Integration & Test
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: GNC Engineer 2
+      institution: Boeing
+      year: 2026-04 – Present
+      description:
+        - Verify 777X Primary Flight Function (PFF) requirements through hardware-in-the-loop
+          (HIL), software-in-the-loop (SIL), and on-aircraft testing using the Integrated
+          Test Vehicle (ITV) and Psim simulation model.
+        - Develop Psim aircraft scenarios and a custom Python parser, reproducing simulated
+          conditions on ITV live hydraulic hardware; export test data to MATLAB for analysis
+          and reporting.
+        - Develop Python tools and structured reporting templates for global engineering
+          teams, standardizing test documentation and guiding completion of information
+          for Boeing PFF and FAA certification reviews.
+        - Built a Python onboarding assistant using a local LLM to help PFF contractors
+          find getting-started guidance in the team wiki.
+        - Trace upstream and downstream signals in Simulink models to identify requirement-verification
+          evidence, investigate discrepancies, and support corrections to test cases and
+          documentation.
+        - Contribute across PFF safety analysis, requirements, and test activities; collaborate
+          with the FAA and engineering stakeholders to support Boeing 777-9 certification.
+    - title: Flight Test Engineer
+      institution: Mach Industries
+      year: 2025-10 – 2026-03
+      description:
+        - Planned and led selected flight tests for a UAS developed from concept to first
+          flight in three months, defining flight plans, coordinating execution, and documenting
+          discrepancies and lessons learned.
+        - Designed and operated propulsion and avionics ground test infrastructure, including
+          engine test stands, hot-fire and thermal-soak testing, thrust measurements,
+          and vibration characterization.
+        - Supported testing of aircraft communications, onboard video streaming, and accelerometer
+          data streams used in GPS-denied navigation development; performed post-test
+          data reduction and root cause analysis.
+        - Delivered technical and product briefings to senior government officials, military
+          leaders, and international delegations, adapting engineering information to
+          varied audiences. Interviewed prospective engineers.
+    - title: Structural/Software Engineer
+      institution: Collier Aerospace
+      year: 2024-05 – 2025-10
+      description:
+        - Analyzed and sized composite and metallic aerospace structures using HyperX,
+          performing trade studies and delivering technical reports for customers including
+          NASA, Electra, ULA, Blue Origin, and Boeing.
+        - Performed finite element analysis (FEA) in FEMAP and NASTRAN to evaluate load
+          paths, stress distributions, and potential failure modes in aerospace components.
+        - Developed Python automation tools and plug-ins implementing structural mechanics
+          methods to assess aircraft-specific spar cutout sizes and shapes, structural
+          performance, and weight-reduction trade studies.
+        - Supported environmental loads analysis and high-temperature composites research,
+          preparing structural trade studies and technical documentation tailored to customer-specific
+          requirements.
+    - title: TA for Aerospace Engineering Courses
+      institution: Teaching Assistant – NC State University
+      year: 2022-08-01 – 2023-05-01
+      description:
+        - Assisted over 150 students through labs, grading, and structured review sessions.
+        - Led demos on aerodynamic flow visualization and structural testing.
+        - Collaborated with professors on curriculum design and assessments.
+        - Maintained a high-energy teaching style recognized by students and faculty.
+    - title: Software & AI Intern
+      institution: Four Colors Tech
+      year: 2023-05-01 – 2024-01-01
+      description:
+        - Optimized large language models for PLM and CAD data environments.
+        - Fine-tuned NLP models for classification, summarization, and revision tracking.
+        - Built self-healing automation systems for enterprise workflows.
+        - Streamlined automation pipelines with Playwright and Selenium, cutting QA time
+          by 40%.
+        - Secured training datasets using masking and anonymization strategies.
+        - Supported NX CAD optimization workflows and PLM standardization strategies.
+    - title: Technician
+      institution: Undead Electronics
+      year: 2021-08-01 – 2022-08-01
+      description:
+        - Diagnosed and repaired 100+ devices including phones, laptops, and tablets.
+        - Performed micro-soldering and IC replacement for motherboard repair.
+        - Recovered and migrated customer data from damaged devices.
+        - Maintained repair documentation and improved shop intake workflows.
+    - title: Software Engineering Intern
+      institution: Zaloni
+      year: 2020-06-01 – 2020-08-01
+      description:
+        - Built automated pipelines to catalog DICOM medical images and records.
+        - Developed parsers in Java/Python to integrate metadata into SQL Server.
+        - Deployed a production system at Duke Hospitals saving $100,000 annually.
+        - Improved fault tolerance and batch-processing speed for clinical data ingestion.
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Master’s in Aerospace Engineering
+      institution: North Carolina State University
+      year: 2025-05
+    - title: Bachelor’s in Aerospace Engineering
+      institution: North Carolina State University
+      year: 2024-05
+    - title: Minor in Computer Programming
+      institution: North Carolina State University
+      year: 2024-05
+    - title: Minor in Materials Science and Engineering (MSE)
+      institution: North Carolina State University
+      year: 2023-05

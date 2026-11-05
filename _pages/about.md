@@ -2,37 +2,40 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
-
+subtitle: Flight controls · Systems integration · Robotics
 profile:
   align: right
   image: KK_Headshot.jpeg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+  image_circular: false
+  more_info: ""
+selected_papers: true
+social: true
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 0 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
+  scrollable: false
+  limit: 0
 latest_posts:
   enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 0 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 0
 ---
 
-Hello, I’m Karthik Kannan, an aerospace engineer with a Master’s from NC State and a minor in Computer Science. I’m naturally curious and enjoy learning across disciplines, which is why I gravitate toward roles where I can connect different pieces together.
+I'm **Karthik Kannan**, an aerospace engineer who likes a difficult problem and the chance to build something that works. I'm ambitious about what I want to learn, and I tend to follow a question past the point where it fits neatly into one discipline. That has taken me from aircraft structures and materials research to flight testing, software development, and personal robotics projects.
 
-I value teamwork and find that I do my best work when I’m surrounded by people who are equally motivated. I like to stay hands-on, whether that’s testing, building, or troubleshooting, because it keeps me connected to the real impact of my work.
+What keeps me interested is figuring out **why something behaves the way it does**. I enjoy tracing a signal through a model, troubleshooting a physical system, or writing a tool that takes a repetitive task off someone's plate. Finding the mistake is satisfying; understanding it well enough to make the next test or design better is the part I want to own.
 
-My main goal in life is to make my mark on the world. I’m driven by ambition and dreams to be remembered for what I’ve contributed whether that impact is small or big. At the core, I want to help people through the work I do.
+### The work I do
 
-I have a multidisciplinary background that shapes how I approach problems. I’m not afraid to take things apart or push designs to their limits, because I learn best by uncovering how things really work. I also tend to think in worst-case scenarios, which helps me prepare for challenges. If the worst happens, I’m ready and if it doesn’t, the outcome is better than anything I planned for.
+I currently work as a **GNC Engineer 2 on Boeing's 777X Primary Flight Function team**, primarily in flight control test and verification. My work connects requirements, simulation, and aircraft hardware: developing Psim scenarios, working with the Integrated Test Vehicle's live hydraulics, tracing Simulink signals, and using Python and MATLAB to turn test data into useful evidence.
 
-My motto is simple: “You can only climb a mountain by the steps you take.” That perspective keeps me focused on progress one step at a time, helps me savor each failure, and motivates me until I succeed.
+Before Boeing, I worked on **UAS flight testing at Mach Industries**, where the team took an aircraft from concept to first flight in three months. At **Collier Aerospace**, I combined structural analysis with Python development, translating engineering methods into tools for aircraft design trades. I have enjoyed both the pace of building a new aircraft and the depth of understanding required to verify a complex flight control system.
 
-I’m a U.S. citizen and open to opportunities nationwide. My goal is simple: keep learning, keep building, and keep contributing wherever I can make a difference.
+### What I keep coming back to
+
+I want work that stretches me. Aerospace is my foundation, but robotics gives me another way to bring mechanics, electronics, controls, and software together. **Tobio**, my volleyball setter robot, is currently a small-scale prototyping effort. My **wind turbine cleaning concept** pushes me to think about the whole system, including the hose and ground equipment. Helping with **Andrew's Sorting Hat project** has been a different kind of challenge: making software, speech input, and video playback work together for a human audience.
+
+I earned my **master's in Aerospace Engineering in 2025** and **bachelor's in Aerospace Engineering in 2024** at NC State, with minors in **Computer Programming** and **Materials Science and Engineering**. Building student UAVs, researching materials, and teaching more than 150 students shaped how I explain problems and work with people who approach them differently.
+
+I'm looking to keep growing around people who ask good questions, take responsibility, and enjoy working through the hard parts together. I'm a U.S. citizen and open to opportunities nationwide.
+
+[Explore my work]({{ '/experience/' | relative_url }}) · [See what I'm building]({{ '/Projects/' | relative_url }}) · [Read my resume]({{ '/resume/' | relative_url }})
