@@ -45,7 +45,6 @@ related_publications: false
   while still delivering a unique and practical drone experience.
 </p>
 
-
 <h2>Existing Solutions</h2>
 <p>
   Early prototypes of watch-sized drones have been demonstrated, most

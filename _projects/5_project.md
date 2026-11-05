@@ -61,4 +61,3 @@ related_publications: false
   <li>Systems engineering principles for modularity and multi-tasking capability</li>
   <li>Hands-on prototyping: parts sourcing, early mechanical testing, and iterative design</li>
 </ul>
-

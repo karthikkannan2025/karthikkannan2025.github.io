@@ -6,8 +6,9 @@ img: assets/img/REACHR_PIC.png
 importance: 3
 category: work
 related_publications: false
-status: 'Contributions: 2024–2025'
+status: "Contributions: 2024–2025"
 ---
+
 <div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
   <img src="/assets/img/reachr-hero-banner.png"
        alt="REACHR HERO vehicle hovering during field test"
@@ -23,11 +24,13 @@ The **REACHR Project** at NC State University is developing **HERO 2**, a VTOL-c
 Our mission is simple: **advance unmanned aerial system technology for critical response and surveillance.** With a multidisciplinary student team, REACHR aims to redefine how UAVs move and operate, ensuring efficient and effective performance when people need it most.
 
 ### Journey so far
+
 - **2023** — Project initiated at NC State to design a disaster-response UAV.
 - **2024** — Won NASA Blue Skies **Most Innovative** award.
 - **2025** — Awarded an **$80K USRC grant** to build a full-scale prototype with FEMA and NCDPS for Ocracoke Island, NC.
 
 ### HERO 2 operations include
+
 - Swift deployment with modular assembly and VTOL take-off.
 - Hybrid-electric climb to altitude for endurance and coverage.
 - Infrared scanning to detect survivors and hazards.
@@ -91,7 +94,6 @@ Together, this cycle delivers critical data quickly, improves situational awaren
   These are some of the things I have worked on and assisted with.
 </div>
 
-
 <section>
   <h3>My Role in REACHR</h3>
   <p>
@@ -110,7 +112,6 @@ Together, this cycle delivers critical data quickly, improves situational awaren
     <li>Contributed to <strong>operational documentation and checklists</strong>, linking technical workflows with field procedures.</li>
   </ul>
 </section>
-
 
 ### From recorded data to real-time processing
 

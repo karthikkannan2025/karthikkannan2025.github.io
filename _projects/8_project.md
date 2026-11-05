@@ -17,11 +17,13 @@ related_publications: false
 </div>
 
 ### Summary
+
 This project introduces a **multi-functional autonomous drone system** designed to address two critical challenges: disaster response and urban infrastructure resilience. The UAV leverages **computer vision, swarm intelligence, and power line charging** to mitigate hazards such as downed power lines while extending endurance far beyond current limitations. By transforming one of the greatest weaknesses of drones — **short battery life** — into a strength, this concept demonstrates how UAVs can sustainably support both **emergency response** and **smart city applications**.
 
 ---
 
 ### Motivation
+
 In **January 2024**, a tragedy in Oregon highlighted the stakes of fragile urban infrastructure:
 a fallen power line electrocuted a family inside their car during a snowstorm. This devastating incident reinforced the need for **rapid detection and neutralization of downed wires** before first responders can safely act.
 
@@ -32,6 +34,7 @@ making the very infrastructure (power lines) that causes danger part of the solu
 ---
 
 ### Objectives & Proposed Solutions
+
 The project combines autonomy, vision, and energy resilience into a cohesive system:
 
 - **Power Line Charging Integration**
@@ -53,10 +56,10 @@ The project combines autonomy, vision, and energy resilience into a cohesive sys
 
 Together, these innovations provide a **sustainable, autonomous, and life-saving UAV system** that maximizes endurance while minimizing risks to human life.
 
-
 ---
 
 ### Gallery
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="/assets/img/powerline_charging_drone_2.png"
@@ -95,12 +98,13 @@ Together, these innovations provide a **sustainable, autonomous, and life-saving
   </div>
 </div>
 
-
 ---
 
 ### My Role
+
 I was the **lead author** of this paper, drawing from my senior design and research experiences.
 My contributions included:
+
 - Writing the full **AIAA paper** and preparing figures.
 - Designing the **concept of operations** and proposed solution framework.
 - Integrating **YOLOv8 computer vision** into UAV autonomy concepts.
@@ -110,6 +114,7 @@ My contributions included:
 ---
 
 ### Reflection
+
 Publishing this paper was a defining experience in my undergraduate career. It taught me not only the **technical challenges** of bridging AI with aerospace, but also the **discipline of writing and communicating** at a professional level.
 
 It strengthened my passion for **drones and autonomy**, gave me confidence in presenting ideas to a technical audience, and laid the foundation for later projects like **REACHR** and **GoAERO**.
@@ -119,6 +124,7 @@ This project showed me how UAVs can serve **both humanitarian disaster relief an
 ---
 
 ### Presentation
+
 <div class="row justify-content-sm-center mt-4">
   <div class="col-sm-10 text-center">
     <iframe src="/assets/pdf/AIAA_Presentation.pdf"
@@ -145,6 +151,7 @@ This project showed me how UAVs can serve **both humanitarian disaster relief an
 ---
 
 ### DOI Reference
-**K. Kannan**, *“Innovative Drone Systems for Disaster Response,”*
+
+**K. Kannan**, _“Innovative Drone Systems for Disaster Response,”_
 AIAA SciTech Forum, 2024.
 DOI: [10.2514/6.2024-85684](https://doi.org/10.2514/6.2024-85684)

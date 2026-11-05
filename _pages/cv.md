@@ -10,5 +10,3 @@ description: Professional experience, selected projects, education, and technica
 toc:
   sidebar: left
 ---
-
-

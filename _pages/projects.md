@@ -6,8 +6,8 @@ description: Professional engineering work, research, and personal robotics proj
 nav: true
 nav_order: 3
 display_categories:
-- work
-- fun
+  - work
+  - fun
 horizontal: false
 ---
 

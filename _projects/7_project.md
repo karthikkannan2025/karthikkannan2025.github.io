@@ -25,6 +25,7 @@ I served as **Manufacturing Lead** and **Payload/Avionics Lead**, responsible fo
 ---
 
 ### Journey so far
+
 - **2023–2024** — Designed Poseidon UAV for NASA Blue Skies competition.
 - Developed a hurricane-response CONOPS and conducted CAD, FEA, avionics, and propulsion trade studies.
 - Built and flight-tested a working prototype.
@@ -33,6 +34,7 @@ I served as **Manufacturing Lead** and **Payload/Avionics Lead**, responsible fo
 ---
 
 ### Poseidon Features
+
 - **Weight limit:** &lt;10 lbs per NASA rules.
 - **Rotor system:** Hexacopter layout with custom carbon-fiber arms.
 - **Payload:** Cameras, sensors, wireless charging pads, modular avionics bay.
@@ -58,9 +60,11 @@ I served as **Manufacturing Lead** and **Payload/Avionics Lead**, responsible fo
 ---
 
 ### My Role in TRIDENT
+
 I acted as the **OPERATIONS Project Manager**, **Manufacturing Lead** and **Payload/Avionics Lead**, overseeing integration of avionics, payload systems, and electrical components. I also collaborated on structures and manufacturing to ensure subsystem compatibility.
 
 **Key Contributions**
+
 - Developed **computer vision for landing-site selection and aerial human detection**, evaluating it with recorded imagery and video. The work later evolved into ground-based real-time processing for REACHR.
 - Built and tested the **avionics "nervous system"**, integrating Pixhawk, ESCs, PDB, GPS, and telemetry.
 - Designed and soldered the **Power Distribution Board (PDB)** for modular connections.
@@ -72,6 +76,7 @@ I acted as the **OPERATIONS Project Manager**, **Manufacturing Lead** and **Payl
 ---
 
 ### Gallery
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="/assets/img/Poseidon_UAV_ISO.png"

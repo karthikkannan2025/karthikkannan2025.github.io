@@ -6,7 +6,7 @@ img: assets/img/goaero-hero-banner.png
 importance: 4
 category: work
 related_publications: false
-status: 'Contributions: 2024–2025'
+status: "Contributions: 2024–2025"
 ---
 
 <div class="mt-2" style="width:100%; overflow:hidden; border-radius:12px;">
@@ -22,6 +22,7 @@ Our team, **RESCURE PACK**, developed the **RPAC (Rescue Pack Autonomous Copter)
 ---
 
 ### Journey so far
+
 - **2023** — Team RESCURE PACK formed across NC State University and RPI, guided by faculty advisors Dr. Gandhi and Dr. Ewere.
 - **2024** — Designed RPAC for three mission classes: productivity, adversity, and maneuvering. Submitted Phase 1 technical report.
 - **2025** — Selected as a **Phase 1 winner**; preparing for Phase 2 prototyping.
@@ -29,6 +30,7 @@ Our team, **RESCURE PACK**, developed the **RPAC (Rescue Pack Autonomous Copter)
 ---
 
 ### RPAC Design Targets
+
 - **Gross weight:** ~650 lb class octocopter.
 - **Rotor system:** 8 × 4.2 ft rotors.
 - **Dimensions:** 20 × 7.5 × 3.5 ft (road-legal transport).
@@ -55,11 +57,13 @@ These were the members of the RESCUE PACK team from NC STATE University
 ---
 
 ### My Role in RESCURE PACK — 2024–2025
+
 I contributed to both the **AI/computer vision** and **structural design** aspects of RPAC. My focus was on ensuring the autonomy system could detect, classify, and respond to hazards while also helping refine the vehicle’s airframe design for safety and performance. Although I have since **graduated from NC State and moved on from the team**, I’m proud of the work I contributed and the progress RESCURE PACK continues to make.
 
 I led a **seven-member team** in structures and AI/ML integration and served as team spokesperson. The team received **approximately $70,000 during my involvement**.
 
 **Key Contributions**
+
 - Assisted in developing the **YOLOv9 + LiDAR autonomy pipeline** for obstacle detection and mission adaptability.
 - Worked on **computer vision algorithms** for situational awareness and landing accuracy.
 - Supported **structural design and analysis**, including CAD development and structural trades.
@@ -68,6 +72,7 @@ I led a **seven-member team** in structures and AI/ML integration and served as 
 ---
 
 ### Gallery
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="/assets/img/LidarSystemOnAircraft.png"
@@ -110,10 +115,6 @@ I led a **seven-member team** in structures and AI/ML integration and served as 
   </div>
 </div>
 
-
-
-
-
 <section class="mt-4">
   <h3>In the News</h3>
   <p>
@@ -126,4 +127,3 @@ I led a **seven-member team** in structures and AI/ML integration and served as 
     in the project.
   </p>
 </section>
-

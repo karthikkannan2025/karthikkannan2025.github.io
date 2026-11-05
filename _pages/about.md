@@ -7,7 +7,7 @@ profile:
   align: right
   image: KK_Headshot.jpeg
   image_circular: false
-  more_info: ''
+  more_info: ""
 selected_papers: true
 social: true
 announcements:

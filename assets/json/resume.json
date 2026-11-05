@@ -128,9 +128,7 @@
       "studyType": "Master’s",
       "startDate": "2023-08",
       "endDate": "2025-05",
-      "courses": [
-        "GPA: 3.9/4.0"
-      ]
+      "courses": ["GPA: 3.9/4.0"]
     },
     {
       "institution": "North Carolina State University",
@@ -140,9 +138,7 @@
       "studyType": "Bachelor’s",
       "startDate": "2020-08",
       "endDate": "2024-05",
-      "courses": [
-        "GPA: 3.9/4.0"
-      ]
+      "courses": ["GPA: 3.9/4.0"]
     },
     {
       "institution": "North Carolina State University",
@@ -151,9 +147,7 @@
       "area": "Computer Programming",
       "studyType": "Minor",
       "endDate": "2024-05",
-      "courses": [
-        "Completed May 2024"
-      ]
+      "courses": ["Completed May 2024"]
     },
     {
       "institution": "North Carolina State University",
@@ -162,9 +156,7 @@
       "area": "Materials Science and Engineering (MSE)",
       "studyType": "Minor",
       "endDate": "2023-05",
-      "courses": [
-        "Completed May 2023"
-      ]
+      "courses": ["Completed May 2023"]
     }
   ],
   "awards": [
@@ -272,48 +264,27 @@
     {
       "name": "Aerospace Innovation",
       "icon": "fa-solid fa-plane",
-      "keywords": [
-        "UAV Design",
-        "eVTOL Systems",
-        "Autonomous Flight"
-      ]
+      "keywords": ["UAV Design", "eVTOL Systems", "Autonomous Flight"]
     },
     {
       "name": "AI & Robotics",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Computer Vision",
-        "Neural Networks",
-        "Autonomy"
-      ]
+      "keywords": ["Computer Vision", "Neural Networks", "Autonomy"]
     },
     {
       "name": "Entrepreneurship",
       "icon": "fa-solid fa-lightbulb",
-      "keywords": [
-        "Startups",
-        "Innovation",
-        "Product Design",
-        "Following Startup Ideas"
-      ]
+      "keywords": ["Startups", "Innovation", "Product Design", "Following Startup Ideas"]
     },
     {
       "name": "Sports & Outdoors",
       "icon": "fa-solid fa-volleyball-ball",
-      "keywords": [
-        "Volleyball",
-        "Running",
-        "Travel"
-      ]
+      "keywords": ["Volleyball", "Running", "Travel"]
     },
     {
       "name": "Cooking",
       "icon": "fa-solid fa-utensils",
-      "keywords": [
-        "Experimenting with Recipes",
-        "Meal Prep",
-        "Cultural Cuisine"
-      ]
+      "keywords": ["Experimenting with Recipes", "Meal Prep", "Cultural Cuisine"]
     }
   ],
   "publications": [
