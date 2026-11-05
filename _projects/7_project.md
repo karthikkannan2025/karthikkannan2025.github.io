@@ -5,7 +5,7 @@ description: Senior Capstone UAV project for NASA Blue Skies competition — dis
   multirotor
 img: assets/img/3.22.jpg
 importance: 5
-category: work
+category: research
 related_publications: false
 status: 2023–2024
 ---
@@ -74,6 +74,12 @@ I acted as the **OPERATIONS Project Manager**, **Manufacturing Lead** and **Payl
 - Contributed to the [AIAA publication](https://arc.aiaa.org/doi/10.2514/6.2024-85684).
 
 ---
+
+### Making the subsystems work as one aircraft
+
+As manufacturing and payload/avionics lead, I worked at the interfaces between the airframe, wiring, flight controller, and payloads. Building the power-distribution board and assembling the avionics made those interfaces physical: the aircraft needed usable connections and a layout that the team could assemble, inspect, and troubleshoot.
+
+The perception work followed a different development path. I evaluated human detection and landing-site selection on recorded imagery and video, while the aircraft itself went through flight trials. Keeping those stages separate matters: a flight-capable airframe did not mean every proposed autonomy feature had been demonstrated in flight.
 
 ### Gallery
 

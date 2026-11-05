@@ -4,7 +4,7 @@ title: Boeing 777X Flight Controls
 description: Flight control verification, simulation, live hydraulic testing, and
   Python engineering tools
 importance: 0
-category: work
+category: employment
 status: Current role
 related_publications: false
 permalink: /projects/boeing/
@@ -24,6 +24,12 @@ I develop aircraft scenario files for the **Psim simulation model** and support 
 
 I built a **custom Python parser** to work with scenario files in Python and export simulation and test data to **MATLAB for analysis and report generation**. This work connects software development directly to the engineering test process.
 
+## Making the test workflow easier to use
+
+The scenario files use a syntax closer to C# than Python. I wrote a parser so I could handle that information in Python, then extract data into MATLAB for analysis and report generation. The aim was to make the transition between scenario definition, test output, and documentation easier to manage.
+
+I also noticed that gathering data and writing reports varied across teams. My response was to build a structured template and supporting scripts that give the information a consistent place and prompt the author for the details needed in review. Engineering judgment still sits with the person preparing and reviewing the evidence.
+
 ## Finding evidence and resolving discrepancies
 
 I trace upstream and downstream signals in **Simulink** models to identify the evidence needed to verify requirements assigned to test cases. When expected and observed behavior differ, I investigate the discrepancy and support corrections to test cases and documentation.
@@ -39,4 +45,4 @@ I also collaborate with engineering stakeholders and the **FAA** in support of c
 
 My focus is on connecting the requirement, the model, the physical response, and the resulting test evidence. It draws on systems integration, troubleshooting, software automation, and technical communication.
 
-[View my resume]({{ '/resume/' | relative_url }}) · [Explore my experience]({{ '/experience/' | relative_url }})
+[View my resume]({{ '/resume/' | relative_url }}) · [Explore my work]({{ '/experience/' | relative_url }})

@@ -4,7 +4,7 @@ title: Mach Industries Flight Test
 description: UAS flight testing, ground test infrastructure, telemetry analysis, and
   technical briefings
 importance: 1
-category: work
+category: employment
 status: October 2025–March 2026
 related_publications: false
 permalink: /projects/mach/
@@ -17,6 +17,12 @@ permalink: /projects/mach/
 At Mach Industries, I supported a UAS program that progressed from **concept to first flight in three months**. Within that broader team effort, I planned and led selected tests: defining flight plans, coordinating execution, and documenting discrepancies and lessons learned.
 
 My work spanned ground test preparation, aircraft communications, onboard video, and post-test data analysis. It gave me experience moving between software, instrumentation, and physical flight hardware as the aircraft developed.
+
+## Owning a test, including what went wrong
+
+For the tests I led, I helped define the flight plan, followed through on execution, and worked through the discrepancies afterward. That could mean checking whether a signal behaved as expected, whether the onboard camera stream was usable, or what the aircraft's accelerometer data could tell us about the test.
+
+I enjoyed the need to move between the aircraft and the data. A test is useful when it answers the intended question, and an unexpected result still needs to be understood and documented so the next iteration benefits from it.
 
 ## Ground test infrastructure
 
@@ -34,4 +40,4 @@ I delivered **technical and product briefings to senior government officials, mi
 
 Rapid development made clear test objectives, usable data, and honest documentation of mistakes essential. Planning a test was only part of the responsibility; following through on its findings was equally important.
 
-[View my resume]({{ '/resume/' | relative_url }}) · [Explore my experience]({{ '/experience/' | relative_url }})
+[View my resume]({{ '/resume/' | relative_url }}) · [Explore my work]({{ '/experience/' | relative_url }})

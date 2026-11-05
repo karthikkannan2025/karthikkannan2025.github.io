@@ -4,7 +4,7 @@ title: GoAERO Prize — RESCURE PACK (RPAC)
 description: Rescue eVTOL concept, structural design, and AI/ML integration
 img: assets/img/goaero-hero-banner.png
 importance: 4
-category: work
+category: research
 related_publications: false
 status: "Contributions: 2024–2025"
 ---
@@ -70,6 +70,12 @@ I led a **seven-member team** in structures and AI/ML integration and served as 
 - Helped prepare the **Phase 1 technical report**, focusing on autonomy and design documentation.
 
 ---
+
+### Working across structure and perception
+
+My role connected the vehicle's physical design with the sensing and autonomy concept. The CAD work, sensor arrangements, and computer-vision pipeline needed to describe the same proposed aircraft. Helping with both sides made the interfaces between them a tangible part of the design work.
+
+The Phase 1 report required us to explain that system to people outside the immediate team. As a contributor and spokesperson, I had to connect the technical choices to the rescue mission while distinguishing the design targets from what had been demonstrated. My contributions were during 2024–2025; subsequent team development continued after I left.
 
 ### Gallery
 

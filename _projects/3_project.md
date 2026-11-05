@@ -5,7 +5,7 @@ description: MATLAB and Python neural networks for composite return loss and can
   ceramic compositions
 img: assets/img/reu-hero-banner.png
 importance: 6
-category: work
+category: research
 related_publications: false
 status: "Research: 2022"
 ---
@@ -45,6 +45,12 @@ In **2022**, as an undergraduate researcher, I worked under **Dr. Cheryl Xu** at
 ### Dataset and model transfer
 
 My initial work used data from **three to four actual composites**. I transferred the network to an industry collaborator, which trained it on a larger dataset to explore possible ceramic materials. Candidate compositions were model-generated hypotheses, rather than a claim that every proposed material had been manufactured and experimentally validated.
+
+### What a useful model could—and could not—tell us
+
+The problem brought programming and materials research together: use available measurements to model return-loss behavior, then explore possible compositions worth investigating. MATLAB and Python let me build the network and work with the data, but the limited number of physical composites constrained what I could establish experimentally.
+
+Transferring the network to a collaborator with more data extended the work beyond my initial samples. I see that distinction as central to the project: proposing a promising ceramic composition is one step, while manufacturing and testing it is another. The research gave me experience communicating both the potential of a model and the limits of the evidence behind it.
 
 ### Gallery
 

@@ -103,7 +103,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-preview
-          path: _site
+          path: |
+            _site
+            !_site/**/*:Zone.Identifier
           retention-days: 7
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'

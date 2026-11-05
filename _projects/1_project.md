@@ -4,7 +4,7 @@ title: REACHR
 description: Disaster-response UAV integration and real-time ground-based perception
 img: assets/img/REACHR_PIC.png
 importance: 3
-category: work
+category: research
 related_publications: false
 status: "Contributions: 2024–2025"
 ---
@@ -19,17 +19,13 @@ status: "Contributions: 2024–2025"
 **Summary**
 REACHR is building **HERO 2**, a VTOL-capable flying boat UAV for disaster response. The system blends high-resolution imaging, IR sensing, real-time data links, and a hybrid-electric powertrain for long-endurance operations in flooded or remote areas. My contributions during **2024–2025** focused on autonomy, networking, electrical integration, structures, and controls.
 
-The **REACHR Project** at NC State University is developing **HERO 2**, a VTOL-capable flying boat UAV for disaster response. HERO 2 combines high-resolution imaging, infrared sensors, real-time data transmission, and a hybrid-electric powertrain for long-endurance autonomous operations in flooded or remote areas.
-
-Our mission is simple: **advance unmanned aerial system technology for critical response and surveillance.** With a multidisciplinary student team, REACHR aims to redefine how UAVs move and operate, ensuring efficient and effective performance when people need it most.
-
 ### Journey so far
 
 - **2023** — Project initiated at NC State to design a disaster-response UAV.
 - **2024** — Won NASA Blue Skies **Most Innovative** award.
 - **2025** — Awarded an **$80K USRC grant** to build a full-scale prototype with FEMA and NCDPS for Ocracoke Island, NC.
 
-### HERO 2 operations include
+### Intended HERO 2 operations
 
 - Swift deployment with modular assembly and VTOL take-off.
 - Hybrid-electric climb to altitude for endurance and coverage.
@@ -61,7 +57,7 @@ The **REACHR Concept of Operations (CONOPS)** illustrates how HERO 2 supports di
 5. **Network Dissemination** — Plans shared via the REACHR network for real-time coordination.
 6. **Mission Refitting** — Quick reconfiguration for surveillance, delivery, or continued response.
 
-Together, this cycle delivers critical data quickly, improves situational awareness, and accelerates rescue operations in flooded or isolated regions.
+This concept describes the intended mission workflow, rather than a claim that every capability was demonstrated during my involvement.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
@@ -112,6 +108,12 @@ Together, this cycle delivers critical data quickly, improves situational awaren
     <li>Contributed to <strong>operational documentation and checklists</strong>, linking technical workflows with field procedures.</li>
   </ul>
 </section>
+
+### Why the ground computer mattered
+
+My perception work had to fit the aircraft's available resources. Limited onboard computing and storage led us to stream data to a ground computer for processing. That made connectivity part of the perception system: useful image processing depended on getting the aircraft data to the place where it could be analyzed.
+
+I worked across the networking, electrical layout, hardware monitoring, and field documentation that supported that workflow. The human-detection and landing-site work was part of a larger integration effort; it should not be read as a demonstration of autonomous landing.
 
 ### From recorded data to real-time processing
 

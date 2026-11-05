@@ -4,7 +4,7 @@ title: AIAA Paper — Autonomous Power Line Retrieval Drone
 description: Published AIAA paper on UAV autonomy, computer vision, and power line charging
 img: assets/img/Published_Paper_pic.jpg
 importance: 7
-category: work
+category: research
 related_publications: false
 ---
 
@@ -114,6 +114,12 @@ My contributions included:
 - Presenting at the **AIAA SciTech Forum 2024**.
 
 ---
+
+### Turning a project into a technical argument
+
+Writing the paper required me to explain how the proposed mission, perception tools, and charging concept related to one another. Figures and the concept of operations helped make those connections explicit for a reader who had not worked with our aircraft.
+
+The publication draws on my design and research work, but its proposed autonomy and mission capabilities should be distinguished from the prototype flight results described on the Poseidon page. That separation is part of communicating the work accurately: the paper develops the concept, and the test record shows what the hardware demonstrated.
 
 ### Reflection
 

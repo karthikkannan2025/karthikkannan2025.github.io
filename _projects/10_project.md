@@ -1,33 +1,35 @@
 ---
 layout: page
-title: Volleyball Setting Machine
-description: Prototyping a machine for volleyball practice while building mechanical,
-  electrical, and software skills
-importance: 0
+title: "Tobio — Volleyball Setter Robot"
+description: "Trajectory modeling, ESP32 control, and a small-scale launcher prototype"
 category: fun
-status: Prototyping
+importance: 0
+status: "Prototyping"
 related_publications: false
-permalink: /projects/10_project/
 ---
 
 ## Why I am building it
 
-Volleyball is one of my interests outside engineering. This project brings the two together: I am developing a **volleyball setting machine** as a hands-on way to explore robotics through a practical training application.
+Tobio is my attempt to turn a volleyball set into a repeatable robotics problem. The goal is a machine that can deliver different types of sets by controlling where the ball goes and how long it takes to get there. It gives me a concrete reason to learn the mechanics, electronics, and control software needed to make a physical system behave predictably.
 
-## Current stage
+I am starting with a **ping-pong-ball prototype** before scaling to volleyball hardware. That lets me work through launcher geometry, motor control, and wiring on a smaller system. It is a development platform; a full-size volleyball machine remains the goal.
 
-The machine is **in the prototyping phase**. My focus is on bringing mechanical design, electrical systems, and software together in a working prototype, and learning through the integration process.
+## From a target to a launch command
 
-## Engineering questions to explore
+The Python trajectory code starts with a launcher position, a target position, and a requested **time of flight**. It solves for the initial velocity vector, then converts that into launch speed, pitch, and yaw. Keeping time of flight explicit matters because two balls can arrive at the same place with very different trajectories and timing.
 
-- How can the mechanism produce a consistent, useful set for practice?
-- How should the mechanical design and controls work together?
-- What measurements will make it possible to evaluate repeatability and refine the prototype?
+I keep that math separate from hardware control. Set presets can be reused by the simulation tools and the controller, while changes to motor hardware do not require rewriting the trajectory model. The current model is a **drag-free approximation**, useful as a starting point rather than a claim of measured accuracy.
 
-These are development questions rather than measured performance claims. As the prototype develops, this page will document the design decisions, testing, and lessons learned.
+## Connecting the model to hardware
 
-## Skills I am developing
+The ESP32 firmware estimates wheel RPM from launch speed and translates that estimate into **open-loop PWM** for two BTS7960 motor drivers. It includes serial commands for set presets and explicit arm, stop, and disarm states. The current build planning uses two 775 motors, a Raspberry Pi/ESP32 setup, and pitch/yaw servos with a separate regulated power supply.
 
-Mechanical design, electrical integration, software engineering, robotics, and system-level troubleshooting.
+The electrical work has been a project of its own: separating logic and motor power, planning fuses and a contactor, and incorporating an emergency stop and driver-enable interlock. Recent work has focused on parts, assembly, and resolving the practical connections between those components.
 
-[Back to Fun projects]({{ '/Projects/#fun' | relative_url }})
+## The gap between a model and a repeatable set
+
+The next major step is calibration: **PWM → wheel RPM → ball exit speed → landing position**. Wheel contact, slip, and the ball itself affect the result, so initial motor and transfer-efficiency estimates need to be replaced with measurements. A solved trajectory does not yet mean the launcher can reproduce it.
+
+I have trajectory software, firmware, CAD concepts, and an ongoing hardware prototype. Repeatable launches, measured accuracy, and scaling to a volleyball are still ahead. That is the part I am most interested in: using test results to close the gap between what the code predicts and what the machine actually does.
+
+**Tools and focus:** Python, ESP32/Arduino, embedded control, trajectory modeling, CAD, electrical integration, and experimental calibration.
