@@ -9,16 +9,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-work",
+          title: "Work",
+          description: "Flight controls, UAS flight testing, structural analysis, and engineering software",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
+          },
+        },{id: "nav-projects",
           title: "Projects",
-          description: "These are some of the projects I have worked on or am working on",
+          description: "Personal builds, aircraft projects, and research — the decisions and lessons behind the work",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Projects/";
           },
         },{id: "nav-resume",
           title: "Resume",
-          description: "Please click the &quot;Pages&quot; icon to the right to get my most up to date resume.",
+          description: "Professional experience, selected projects, education, and technical skills. Download the one-page resume using the PDF icon.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resume/";
@@ -402,24 +409,34 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-reachr",
+          section: "News",},{id: "projects-tobio-volleyball-setter-robot",
+          title: 'Tobio — Volleyball Setter Robot',
+          description: "Trajectory modeling, ESP32 control, and a small-scale launcher prototype",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-wind-turbine-blade-cleaning-drone",
+          title: 'Wind Turbine Blade Cleaning Drone',
+          description: "Exploring a tethered cleaning system and the loads that determine its feasibility",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-reachr",
           title: 'REACHR',
-          description: "(Currently working on) Autonomous drone designed for FEMA/NASA relief missions",
+          description: "Disaster-response UAV integration and real-time ground-based perception",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-goaero-prize-rescure-pack-rpac",
           title: 'GoAERO Prize — RESCURE PACK (RPAC)',
-          description: "Phase 1 winning 650 lb rescue eVTOL with autonomy and computer vision",
+          description: "Rescue eVTOL concept, structural design, and AI/ML integration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-reu-research-ai-for-high-temperature-composites",
           title: 'REU Research — AI for High-Temperature Composites',
-          description: "REU research grant funded AI-driven optimization of aerospace composites",
+          description: "MATLAB and Python neural networks for composite return loss and candidate ceramic compositions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-trash-can-moving-robot",
           title: 'Trash Can Moving Robot',
-          description: "Autonomous driveway robot for moving trash cans to the curb",
+          description: "A household robotics concept focused on lifting, load sharing, and driveway mobility",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-senior-design-poseidon-uav-blue-skies",
@@ -429,14 +446,34 @@ ninja.data = [{
               window.location.href = "/projects/7_project/";
             },},{id: "projects-aiaa-paper-autonomous-power-line-retrieval-drone",
           title: 'AIAA Paper — Autonomous Power Line Retrieval Drone',
-          description: "Published AIAA SciTech paper on UAV autonomy, YOLOv8 computer vision, and in-flight power line charging",
+          description: "Published AIAA paper on UAV autonomy, computer vision, and power line charging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-smart-watch-drone",
           title: 'Smart Watch Drone',
-          description: "Concept project exploring a foldable, wearable quadcopter integrated into a smartwatch form factor",
+          description: "A wearable UAV concept exploring folding mechanisms, packaging, and power limits",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-boeing-777x-flight-controls",
+          title: 'Boeing 777X Flight Controls',
+          description: "Flight control verification, simulation, live hydraulic testing, and Python engineering tools",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/boeing/";
+            },},{id: "projects-collier-aerospace-structures-and-software",
+          title: 'Collier Aerospace Structures and Software',
+          description: "Structural analysis, aircraft design trade studies, and Python automation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/collier/";
+            },},{id: "projects-mach-industries-flight-test",
+          title: 'Mach Industries Flight Test',
+          description: "UAS flight testing, ground test infrastructure, telemetry analysis, and technical briefings",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mach/";
+            },},{id: "projects-andrew-39-s-sorting-hat-interactive-theme-project",
+          title: 'Andrew&amp;#39;s Sorting Hat — Interactive Theme Project',
+          description: "Python speech input, operator-assisted name matching, and sequenced browser video",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sorting-hat/";
             },},{
         id: 'social-email',
         title: 'email',
