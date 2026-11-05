@@ -15,50 +15,23 @@ related_publications: false
        style="width:100%; max-height:340px; object-fit:cover;">
 </div>
 
-### Summary
+### The research question
 
-This project introduces a **multi-functional autonomous drone system** designed to address two critical challenges: disaster response and urban infrastructure resilience. The UAV leverages **computer vision, swarm intelligence, and power line charging** to mitigate hazards such as downed power lines while extending endurance far beyond current limitations. By transforming one of the greatest weaknesses of drones — **short battery life** — into a strength, this concept demonstrates how UAVs can sustainably support both **emergency response** and **smart city applications**.
+This paper explores a UAV concept for disaster response and infrastructure monitoring, bringing together **computer vision, coordinated flight, and power-line charging**. The question was how those capabilities could support a mission that needs both useful situational information and more endurance than a single battery charge provides.
 
----
+My contribution was to develop and communicate the proposed system: the concept of operations, the relationship between perception and mission planning, and the figures and technical explanation in the paper. It grew out of my aircraft design and autonomy work, including Poseidon.
 
-### Motivation
+### How the proposed pieces fit together
 
-In **January 2024**, a tragedy in Oregon highlighted the stakes of fragile urban infrastructure:
-a fallen power line electrocuted a family inside their car during a snowstorm. This devastating incident reinforced the need for **rapid detection and neutralization of downed wires** before first responders can safely act.
+**Perception:** YOLOv8-based computer vision was part of the proposed approach to identifying people, infrastructure, and hazards in aerial imagery. A useful detection has to become information that supports a mission decision, which is why the perception work was presented alongside the operational concept.
 
-At the same time, UAVs face **fundamental weaknesses** — primarily **limited battery life** and **restricted endurance** — which prevent them from being reliable during extended disaster scenarios.
-This project seeks to not only tackle the hazard of downed power lines but also reframe the endurance limitation of UAVs by **turning their weakness into a strength**:
-making the very infrastructure (power lines) that causes danger part of the solution.
+**Mission coordination:** I explored swarm concepts and particle-swarm-based path planning as ways to divide coverage and coordinate tasks. These were proposed approaches within the paper, not a claim that a flight-tested swarm had completed the mission.
 
----
+**Endurance:** The power-line charging concept addressed what an aircraft would do between battery-limited flight segments. Integrating that capability would require much more than recognizing a line: approach, positioning, the charging interface, and reliable departure would each need their own engineering and validation.
 
-### Objectives & Proposed Solutions
+### What the publication represents
 
-The project combines autonomy, vision, and energy resilience into a cohesive system:
-
-- **Power Line Charging Integration**
-
-  - Enables UAVs to perch and recharge directly from power lines.
-  - Provides near-continuous operation in disaster zones, overcoming battery life limitations.
-
-- **YOLOv8 + Computer Vision Autonomy**
-
-  - Detects **fallen power lines, damaged infrastructure, and human survivors** in real-time.
-  - Provides actionable data streams to first responders for faster, safer operations.
-
-- **Swarm Intelligence & PSO Pathfinding**
-
-  - Coordinates packs of drones to cover large areas in minutes.
-  - Uses **Particle Swarm Optimization (PSO/PSOP)** for dynamic pathfinding, obstacle avoidance, and task prioritization.
-
-- **Multi-Mission Capabilities**
-  - **Hazard Mitigation**: identify and secure downed wires before responders arrive.
-  - **Urban Infrastructure Monitoring**: monitor traffic systems, transformers, and public utilities.
-  - **Search & Rescue**: swarm-based detection of survivors and hazards.
-
-Together, these innovations provide a **sustainable, autonomous, and life-saving UAV system** that maximizes endurance while minimizing risks to human life.
-
----
+The result is a **published concept and technical presentation**, with the original figures and slides preserved below. The broader mission, charging, and hazard-handling capabilities remain proposals in this account. The Poseidon page separately documents the prototype's actual flight trials and remaining stability issues.
 
 ### Gallery
 
